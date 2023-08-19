@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="286" height="207" viewBox="0 0 286 207">
+  <g id="c" data-name="Layer 1">
+    <g>
+      <rect width="286" height="207" fill="#fff"/>
+      <rect x="7.813" y="27.956" width="118.723" height="64.358" transform="translate(-17.973 30.495) rotate(-22.642)"/>
+      <rect x="63.553" y="117.396" width="118.723" height="64.358" transform="translate(33.862 -22.327) rotate(12.026)"/>
+      <rect x="162.79" y="38.662" width="118.723" height="64.358" transform="translate(-8.631 37.534) rotate(-9.474)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gabriel Drozdov is a designer and educator.</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="nav">
+		<div class="nav-section">
+			<a href="https://gabrieldrozdov.com/" class="nav-link nav-link" data-active="1">Gabriel Drozdov</a>
+			<a href="https://noreplica.com/" target="_blank" class="nav-link" data-active="0">No Replica</a>
+			<a href="https://gdwithgd.com/" target="_blank" class="nav-link" data-active="0">GD with GD</a>
+			<a href="https://toomuchtype.com/" target="_blank" class="nav-link" data-active="0">Too Much Type</a>
+		</div>
+		<div class="nav-section">
+			<a href="/" class="nav-link" data-active="1">Work</a>
+			<a href="about/" class="nav-link" data-active="0">About</a>
+			<a href="contact/" class="nav-link" data-active="0">Contact</a>
+		</div>
+	</nav>
+	<header class="header">
+		<h1 class="header-desc">
+			<strong>I’m Gabriel, a designer and educator.</strong> I play with code, typography, and sound to create interactive digital experiences at the intersections of technology and performance.
+		</h1>
+		<h2 class="header-links">
+			I run <a href="" target="_blank" class="header-link">No Replica</a>, <a href="" target="_blank" class="header-link">GD with GD</a>, and <a href="" target="_blank" class="header-link">Too Much Type</a>.
+		</h2>
+	</header>
+	<main class="archive">
+		<div class="archive-controls">
+			<div class="controls-view">
+				<button class="view-option" data-active="1" data-view="list" onclick="changeView('list')">
+					<img src="assets/homepage/view-list.svg" class="view-option-icon">
+				</button>
+				<button class="view-option" data-active="0" data-view="detail" onclick="changeView('detail')">
+					<img src="assets/homepage/view-detail.svg" class="view-option-icon">
+				</button>
+				<button class="view-option" data-active="0" data-view="thumbnail" onclick="changeView('thumbnail')">
+					<img src="assets/homepage/view-thumbnail.svg" class="view-option-icon">
+				</button>
+				<button class="view-option" data-active="0" data-view="jumble" onclick="changeView('jumble')">
+					<img src="assets/homepage/view-jumble.svg" class="view-option-icon">
+				</button>
+			</div>
+			<div class="controls-featured" data-active="1" onclick="toggleFeatured()">
+				<!-- <p class="featured-label">Show only featured projects</p>
+				<div class="featured-toggle">
+					<div class="featured-toggle-handle"></div>
+				</div> -->
+			</div>
+			<div class="controls-settings">
+				<h3 class="settings-label" data-settings-label="sorting" onclick="toggleSettings('sorting')">Sorting</h3>
+				<h3 class="settings-label" data-settings-label="filters" onclick="toggleSettings('filters')">Filters</h3>
+				<div class="settings-menu" data-active="0" data-settings="sorting">
+					<div class="settings-option" data-active="1" data-sorting='curated' onclick="toggleSorting('curated')">
+						<div class="settings-option-toggle"></div>
+						<p class="settings-option-label">Curated</p>
+					</div>
+					<div class="settings-option" data-active="0" data-sorting='newest' onclick="toggleSorting('newest')">
+						<div class="settings-option-toggle"></div>
+						<p class="settings-option-label">Newest first</p>
+					</div>
+					<div class="settings-option" data-active="0" data-sorting='oldest' onclick="toggleSorting('oldest')">
+						<div class="settings-option-toggle"></div>
+						<p class="settings-option-label">Oldest first</p>
+					</div>
+					<div class="settings-option" data-active="0" data-sorting='az' onclick="toggleSorting('az')">
+						<div class="settings-option-toggle"></div>
+						<p class="settings-option-label">A–Z</p>
+					</div>
+					<div class="settings-option" data-active="0" data-sorting='za' onclick="toggleSorting('za')">
+						<div class="settings-option-toggle"></div>
+						<p class="settings-option-label">Z–A</p>
+					</div>
+					<div class="settings-option" data-active="0" data-sorting='random' onclick="toggleSorting('random')">
+						<div class="settings-option-toggle"></div>
+						<p class="settings-option-label">Random</p>
+					</div>
+				</div>
+				<div class="settings-menu" data-active="0" data-settings="filters">
+					<div class="settings-option" data-active="0" data-filter='branding' onclick="toggleFilter('branding')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Branding</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='generative' onclick="toggleFilter('generative')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Generative</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='interactive' onclick="toggleFilter('interactive')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Interactive</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='logo' onclick="toggleFilter('logo')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Logo</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='motion' onclick="toggleFilter('motion')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Motion</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='music' onclick="toggleFilter('music')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Music</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='poster' onclick="toggleFilter('poster')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Poster</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='publication' onclick="toggleFilter('publication')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Publication</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='sound' onclick="toggleFilter('sound')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Sound</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='education' onclick="toggleFilter('education')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Education</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='typeface' onclick="toggleFilter('typeface')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Typeface</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='video' onclick="toggleFilter('video')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Video</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='web' onclick="toggleFilter('web')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Web</p>
+					</div>
+					<div class="settings-option" data-active="0" data-filter='writing' onclick="toggleFilter('writing')">
+						<div class="settings-option-check"></div>
+						<p class="settings-option-label">Writing</p>
+					</div>
+					<div class="settings-clear" onclick="clearFilters()">
+						Clear filters
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="archive-content">
+
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
