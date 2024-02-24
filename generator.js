@@ -411,6 +411,11 @@ function generatePages() {
 					<strong>I’m Gabriel, a design and educator.</strong> I play with code, typography, and sound to create interactive digital experiences at the intersections of technology and performance.
 				</h1>
 				<div class="header-links">
+					<h2 class="header-links-title">
+						<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#fff" stroke-width="0"/><path d="M27,54c0,12.425,10.075,22.5,22.5,22.5s22.5-10.075,22.5-22.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="10"/><circle cx="34.875" cy="33.75" r="9" stroke-width="0"/><circle cx="64.125" cy="33.75" r="9" stroke-width="0"/></svg>
+						<span>These are my organizations!</span>
+						<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#fff" stroke-width="0"/><path d="M27,54c0,12.425,10.075,22.5,22.5,22.5s22.5-10.075,22.5-22.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="10"/><circle cx="34.875" cy="33.75" r="9" stroke-width="0"/><circle cx="64.125" cy="33.75" r="9" stroke-width="0"/></svg>
+					</h2>
 					<a href='https://noreplica.com/' target='_blank'>
 						<div class="header-link-content">
 							<img src="/assets/ui/logo-noreplica.svg" alt="No Replica">

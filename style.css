@@ -90,6 +90,36 @@ img, video {
 	background-color: black;
 	border: 1px solid black;
 }
+.header-links-title {
+	grid-column: span 2;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-variation-settings: "wght" 600, "SRFF" 0;
+	letter-spacing: 0.02em;
+	line-height: 1em;
+	background-color: black;
+	color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: .5rem 1rem;
+	display: none;
+}
+.header-links-title span {
+	padding: .8rem 2rem .5rem 2rem;
+}
+.header-links-title svg {
+	height: 1.2em;
+	animation: 1s archive-empty infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
+}
+@keyframes header-smiley {
+	from {
+		transform: rotate(30deg)
+	}
+	to {
+		transform: rotate(-30deg);
+	}
+}
 .header-links a {
 	text-decoration: none;
 	color: black;
@@ -1437,6 +1467,9 @@ img, video {
 		gap: 1px;
 		border: 1px solid black;
 		background-color: black;
+	}
+	.header-links-title {
+		display: flex;
 	}
 	.header-links a {
 		border: unset;
