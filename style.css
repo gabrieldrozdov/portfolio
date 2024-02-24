@@ -109,7 +109,8 @@ img, video {
 	padding: .8rem 2rem .5rem 2rem;
 }
 .header-links-title svg {
-	height: 1.2em;
+	height: 2.5rem;
+	width: 2.5rem;
 	animation: 1s archive-empty infinite alternate cubic-bezier(0.65, 0, 0.35, 1);
 }
 @keyframes header-smiley {
