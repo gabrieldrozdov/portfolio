@@ -564,7 +564,7 @@ img, video {
 
 /* Header */
 .subpage-header {
-	padding: 8rem;
+	padding: 12rem 8rem;
 }
 .subpage-heading {
 	margin-bottom: 4rem;
@@ -914,7 +914,7 @@ img, video {
 }
 @media only screen and (max-width: 1200px) {
 	.subpage-header {
-		padding: 6rem;
+		padding: 8rem 6rem;
 	}
 	.subpage-title {
 		font-size: 8rem;
@@ -938,7 +938,7 @@ img, video {
 }
 @media only screen and (max-width: 1000px) {
 	.subpage-header {
-		padding: 4rem;
+		padding: 8rem 4rem;
 	}
 	.subpage-header-grid {
 		grid-template-columns: 1fr;
