@@ -71,7 +71,7 @@ function generatePages() {
 		let thumbnail = "";
 		if (entry['thumbnail']['format'] == 'video') {
 			thumbnail = `
-				<video class="lazy" autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail']['image']}" class="archive-item-thumbnail" title="${entry['thumbnail']['alt']}">
+				<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail']['image']}" class="lazy archive-item-thumbnail" title="${entry['thumbnail']['alt']}">
 					<source data-src="${folder}/${entry['thumbnail']['video']}">
 				</video>
 			`;
@@ -84,7 +84,7 @@ function generatePages() {
 		// let thumbnail = "";
 		// if (entry['thumbnail'][0] == 'video') {
 		// 	thumbnail = `
-		// 		<video class="lazy" autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail'][1]}" class="archive-item-thumbnail">
+		// 		<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail'][1]}" class="lazy archive-item-thumbnail">
 		// 			<source data-src="${folder}/${entry['thumbnail'][2]}">
 		// 		</video>
 		// 	`;
@@ -141,7 +141,7 @@ function generatePages() {
 				} else if (asset['format'] == 'video') {
 					subpageArchive += `
 						<div class="subpage-archive-item-content">
-							<video class="lazy" autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${asset['image']}" title="${asset['alt']}" class="subpage-archive-item-content">
+							<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${asset['image']}" title="${asset['alt']}" class="lazy subpage-archive-item-content">
 								<source data-src="${folder}/${asset['video']}">
 							</video>
 						</div>
