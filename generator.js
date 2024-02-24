@@ -371,7 +371,7 @@ function generatePages() {
 			<meta property="og:url" content="https://www.gabrieldrozdov.com/">
 			<meta name="og:title" property="og:title" content="Gabriel Drozdov | Designer and Educator">
 			<meta property="og:description" content="Gabriel Drozdov is a designer and educator creating one-of-a-kind websites.">
-			<meta property="og:image" content="">
+			<meta property="og:image" content="/assets/ui/opengraph.jpg">
 			<link rel="icon" type="image/png" href="/assets/ui/favicon.png">
 
 			<link rel="stylesheet" href="/style.css">
@@ -615,7 +615,7 @@ function generatePages() {
 			<meta property="og:url" content="https://www.gabrieldrozdov.com/">
 			<meta name="og:title" property="og:title" content="Gabriel Drozdov | Designer and Educator">
 			<meta property="og:description" content="Gabriel Drozdov is a designer and educator creating one-of-a-kind websites.">
-			<meta property="og:image" content="">
+			<meta property="og:image" content="/assets/ui/opengraph.jpg">
 			<link rel="icon" type="image/png" href="/assets/ui/favicon.png">
 
 			<link rel="stylesheet" href="/style.css">
