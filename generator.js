@@ -588,7 +588,7 @@ function generatePages() {
 			<script src="/navbar.js"></script>
 			<script src="/archive.js"></script>
 			<script src="/script.js"></script>
-			<script src="/lazy.js"></script>
+			<script src="/archive-lazy.js"></script>
 		</body>
 		</html>
 	`;
