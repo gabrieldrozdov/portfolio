@@ -258,7 +258,7 @@ function generatePages() {
 				<meta property="og:url" content="https://www.gabrieldrozdov.com/${entry['key']}">
 				<meta name="og:title" property="og:title" content="Gabriel Drozdov | ${entry['title']}">
 				<meta property="og:description" content="${entry['tagline']}">
-				<meta property="og:image" content="${entry['thumbnail']['image']}.jpg">
+				<meta property="og:image" content="./${entry['thumbnail']['image']}.jpg">
 				<link rel="icon" type="image/png" href="/assets/ui/favicon.png">
 
 				<link rel="stylesheet" href="/style.css">
