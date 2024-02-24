@@ -71,8 +71,8 @@ function generatePages() {
 		let thumbnail = "";
 		if (entry['thumbnail']['format'] == 'video') {
 			thumbnail = `
-				<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail']['image']}" class="archive-item-thumbnail" title="${entry['thumbnail']['alt']}">
-					<source src="${folder}/${entry['thumbnail']['video']}">
+				<video class="lazy" autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail']['image']}" class="archive-item-thumbnail" title="${entry['thumbnail']['alt']}">
+					<source data-src="${folder}/${entry['thumbnail']['video']}">
 				</video>
 			`;
 		} else if (entry['thumbnail']['format'] == 'image') {
@@ -84,8 +84,8 @@ function generatePages() {
 		// let thumbnail = "";
 		// if (entry['thumbnail'][0] == 'video') {
 		// 	thumbnail = `
-		// 		<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail'][1]}" class="archive-item-thumbnail">
-		// 			<source src="${folder}/${entry['thumbnail'][2]}">
+		// 		<video class="lazy" autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail'][1]}" class="archive-item-thumbnail">
+		// 			<source data-src="${folder}/${entry['thumbnail'][2]}">
 		// 		</video>
 		// 	`;
 		// } else if (entry['thumbnail'][0] == 'image') {
@@ -141,8 +141,8 @@ function generatePages() {
 				} else if (asset['format'] == 'video') {
 					subpageArchive += `
 						<div class="subpage-archive-item-content">
-							<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${asset['image']}" title="${asset['alt']}" class="subpage-archive-item-content">
-								<source src="${folder}/${asset['video']}">
+							<video class="lazy" autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${asset['image']}" title="${asset['alt']}" class="subpage-archive-item-content">
+								<source data-src="${folder}/${asset['video']}">
 							</video>
 						</div>
 					`;
@@ -336,6 +336,7 @@ function generatePages() {
 
 				<script src="/navbar.js"></script>
 				<script src="/subpage.js"></script>
+				<script src="/lazy.js"></script>
 			</body>
 			</html>
 		`
@@ -413,25 +414,25 @@ function generatePages() {
 					<a href='https://noreplica.com/' target='_blank'>
 						<div class="header-link-content">
 							<img src="/assets/ui/logo-noreplica.svg" alt="No Replica">
-							<h2><strong>My design studio</strong>, specializing in playful web design and development</h2>
+							<h2><strong>My design studio</strong>, specializing in playful web design and development.</h2>
 						</div>
 					</a>
 					<a href='https://gdwithgd.com/' target='_blank'>
 						<div class="header-link-content">
 							<img src="/assets/ui/logo-gdwithgd.svg" alt="GD with GD">
-							<h2><strong>My teaching practice</strong>, creating resources for design and technology education</h2>
+							<h2><strong>My teaching practice</strong>, creating resources for design and technology education.</h2>
 						</div>
 					</a>
 					<a href='https://toomuchtype.com/' target='_blank'>
 						<div class="header-link-content">
 							<img src="/assets/ui/logo-toomuchtype.svg" alt="Too Much Type">
-							<h2><strong>My type foundry</strong>, experimenting with variable fonts and digital type specimens</h2>
+							<h2><strong>My type foundry</strong>, experimenting with variable fonts and digital type specimens.</h2>
 						</div>
 					</a>
 					<a href='https://barcoloudly.com/' target='_blank'>
 						<div class="header-link-content">
 							<img src="/assets/ui/logo-barcoloudly.svg" alt="Barco Loudly">
-							<h2><strong>My music project</strong>, producing musical websites and original songs</h2>
+							<h2><strong>My music project</strong>, producing musical websites and original songs.</h2>
 						</div>
 					</a>
 				</div>
@@ -582,6 +583,7 @@ function generatePages() {
 			<script src="/navbar.js"></script>
 			<script src="/archive.js"></script>
 			<script src="/script.js"></script>
+			<script src="/lazy.js"></script>
 		</body>
 		</html>
 	`;
