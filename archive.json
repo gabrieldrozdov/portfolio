@@ -1845,7 +1845,7 @@
 		],
 		"color": "#f61d5d",
 		"invert": true,
-		"active": true
+		"active": false
 	},
 	{
 		"key": "williamstown-theatre-festival-2021-gala",
@@ -2545,7 +2545,7 @@
 		"links": [],
 		"tags": "motion, logo",
 		"year": 2020,
-		"sort-chrono": "2020-05-26",
+		"sort-chrono": "2020-05-30",
 		"sort-custom": 4,
 		"sort-alpha": "jam-a-palooza",
 		"thumbnail": {
@@ -2554,7 +2554,13 @@
 			"video": "jam-a-palooza.mp4",
 			"alt": "Jam-A-Palooza"
 		},
-		"assets": [],
+		"assets": [
+			{
+				"format": "image",
+				"image": "jam-a-palooza-poster.jpg",
+				"alt": "Line-up poster"
+			}
+		],
 		"color": "#e03196",
 		"invert": true,
 		"active": true
@@ -3156,8 +3162,13 @@
 		"title": "Monogram",
 		"subtitle": "for Wesleyan University",
 		"tagline": "Official monogram for the university selected by a community vote.",
-		"desc": "",
-		"links": [],
+		"desc": "<p><a href='https://www.wesleyan.edu/' target='_blank'>Wesleyan University</a>, my alma mater, launched their new website during the Fall 2018 semester. This launch also featured a redesign of the school’s logo and monogram. Unfortunately, the community’s response to these changes was negative, with a particularly strong vocal pushback against the revised monogram. To address these concerns, the school retracted the monogram and opened up a design contest for yet another redesign.</p><p>I entered this contest with a monogram inspired by Wesleyan’s full logo, which features a symbol evoking the school’s shield crest. The contest’s panel of judges selected my design as one of three finalists, and after a community poll my design came out on top with over 50% of 6,200 total votes. My monogram is now the official design used by the university across all official communications and merchandise.</p>",
+		"links": [
+			[
+				"Read the official announcement on Wesleyan’s blog",
+				"https://newsletter.blogs.wesleyan.edu/2019/03/06/monogram/"
+			]
+		],
 		"tags": "logo",
 		"year": 2019,
 		"sort-chrono": "2019-03-07",

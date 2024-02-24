@@ -46,7 +46,11 @@ function generatePages() {
 		}
 		datetimeHoursAMPM = "pm";
 	}
-	const buildDatetime = `Last updated: ${datetime.getDate()} ${datetime.toLocaleString('default', { month: 'long' })} ${datetime.getFullYear()} at ${datetimeHours}:${datetime.getMinutes()}${datetimeHoursAMPM} EST`;
+	let datetimeMinutes = datetime.getMinutes();
+	if (datetimeMinutes < 10) {
+		datetimeMinutes = "0"+datetimeMinutes;
+	}
+	const buildDatetime = `Last updated: ${datetime.getDate()} ${datetime.toLocaleString('default', { month: 'long' })} ${datetime.getFullYear()} at ${datetimeHours}:${datetimeMinutes}${datetimeHoursAMPM} EST`;
 
 	let homepageArchive = '';
 	for (let key of Object.keys(archiveJSON)) {
@@ -67,7 +71,7 @@ function generatePages() {
 		let thumbnail = "";
 		if (entry['thumbnail']['format'] == 'video') {
 			thumbnail = `
-				<video autoplay muted loop playsinline poster="${folder}/${entry['thumbnail']['image']}" class="archive-item-thumbnail" title="${entry['thumbnail']['alt']}">
+				<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail']['image']}" class="archive-item-thumbnail" title="${entry['thumbnail']['alt']}">
 					<source src="${folder}/${entry['thumbnail']['video']}">
 				</video>
 			`;
@@ -80,7 +84,7 @@ function generatePages() {
 		// let thumbnail = "";
 		// if (entry['thumbnail'][0] == 'video') {
 		// 	thumbnail = `
-		// 		<video autoplay muted loop playsinline poster="${folder}/${entry['thumbnail'][1]}" class="archive-item-thumbnail">
+		// 		<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail'][1]}" class="archive-item-thumbnail">
 		// 			<source src="${folder}/${entry['thumbnail'][2]}">
 		// 		</video>
 		// 	`;
@@ -137,7 +141,7 @@ function generatePages() {
 				} else if (asset['format'] == 'video') {
 					subpageArchive += `
 						<div class="subpage-archive-item-content">
-							<video autoplay muted loop playsinline poster="${folder}/${asset['image']}" title="${asset['alt']}" class="subpage-archive-item-content">
+							<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${asset['image']}" title="${asset['alt']}" class="subpage-archive-item-content">
 								<source src="${folder}/${asset['video']}">
 							</video>
 						</div>
@@ -403,11 +407,34 @@ function generatePages() {
 
 			<header class="header">
 				<h1 class="header-desc">
-					<strong>I’m Gabriel, a designer and educator.</strong> I play with code, typography, and sound to create interactive digital experiences at the intersections of technology and performance.
+					<strong>I’m Gabriel, a design and educator.</strong> I play with code, typography, and sound to create interactive digital experiences at the intersections of technology and performance.
 				</h1>
-				<h2 class="header-links">
-					I run <a href="https://www.noreplica.com/" target="_blank" class="header-link">No Replica</a>, <a href="https://www.gdwithgd.com/" target="_blank" class="header-link">GD with GD</a>, <a href="https://www.toomuchtype.com/" target="_blank" class="header-link">Too Much Type</a>, and <a href="https://www.barcoloudly.com/" target="_blank" class="header-link">Barco Loudly</a>.
-				</h2>
+				<div class="header-links">
+					<a href='https://noreplica.com/' target='_blank'>
+						<div class="header-link-content">
+							<img src="/assets/ui/logo-noreplica.svg" alt="No Replica">
+							<h2><strong>My design studio</strong>, specializing in playful web design and development</h2>
+						</div>
+					</a>
+					<a href='https://gdwithgd.com/' target='_blank'>
+						<div class="header-link-content">
+							<img src="/assets/ui/logo-gdwithgd.svg" alt="GD with GD">
+							<h2><strong>My teaching practice</strong>, creating resources for design and technology education</h2>
+						</div>
+					</a>
+					<a href='https://toomuchtype.com/' target='_blank'>
+						<div class="header-link-content">
+							<img src="/assets/ui/logo-toomuchtype.svg" alt="Too Much Type">
+							<h2><strong>My type foundry</strong>, experimenting with variable fonts and digital type specimens</h2>
+						</div>
+					</a>
+					<a href='https://barcoloudly.com/' target='_blank'>
+						<div class="header-link-content">
+							<img src="/assets/ui/logo-barcoloudly.svg" alt="Barco Loudly">
+							<h2><strong>My music project</strong>, producing musical websites and original songs</h2>
+						</div>
+					</a>
+				</div>
 			</header>
 
 			<main class="archive" data-initialized="0">
@@ -548,6 +575,7 @@ function generatePages() {
 			<footer class="footer">
 				© 2024 Gabriel Drozdov<br>
 				All Rights Reserved<br><br>
+				Typeset in Limkin by Gabriel Drozdov (me!)<br><br>
 				${buildDatetime}
 			</footer>
 
@@ -615,23 +643,232 @@ function generatePages() {
 				</div>
 			</nav>
 
-			<header class="header">
-				<h1 class="header-desc">
-					Hi there, I’m Gabriel.
-				</h1>
+			<div class="about">
 
-				<p>
-					TODO
-				</p>
-			</header>
+				<header class="about-info">
+					<img src="/assets/ui/headshot.jpg" alt="Portrait" class="about-headshot">
+					<h1 class="about-header">
+						<strong>Hello! You’re here!</strong><br>I’m Gabriel, and I’m here, too.
+					</h1>
+					<div class="about-bio">
+						<p>
+							I make websites. I make other things, too, but I really like making websites.
+						</p>
+						<p>
+							I studied computer science and theater at Wesleyan University, and I have since found that websites are the best way to bring those things together. I also studied graphic design in RISD’s MFA program. That made me love websites even more, as well as teaching.
+						</p>
+						<div class="about-divider"></div>
+						<p>
+							Right now, I’m running a few companies I founded:
+						</p>
+						<p>
+							<strong><a href='https://noreplica.com/' target='_blank'>No Replica</a></strong> is my design studio.
+						</p>
+						<p>
+							<strong><a href='https://gdwithgd.com/' target='_blank'>GD with GD</a></strong>, or Graphic Design with Gabriel Drozdov, is my teaching practice.
+						</p>
+						<p>
+							<strong><a href='https://toomuchtype.com/' target='_blank'>Too Much Type</a></strong> is my type foundry.
+						</p>
+						<p>
+							<strong><a href='https://barcoloudly.com/' target='_blank'>Barco Loudly</a></strong> is my music project.
+						</p>
+					</div>
+				</header>
+
+				<main class="cv">
+					<div class="cv-section">
+						<h3 class="cv-section-title">Education</h3>
+						<div class="cv-section-item">
+							<div><strong>2021–<br>2024</strong></div>
+							<div>
+								<div>Rhode Island School of Design</div>
+								<div><em>MFA in Graphic Design</em></div>
+								<div>Providence, RI</div>
+							</div>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>2015–<br>2019</strong></div>
+							<div>
+								<div>Wesleyan University</div>
+								<div><em>BA in Computer Science and Theater</em></div>
+								<div>Honors in Theater</div>
+								<div>Middletown, CT</div>
+								<div onclick="cvExpand(this);" data-active="0" class="cv-expand">Read more</div>
+							</div>
+							<ul data-active="0">
+								<li>Honors in Theater, concentration in performance theory and sound design.</li>
+								<li>Rachel Henderson Prize, one of 3 recipients awarded for outstanding impact on theater community.</li>
+								<li>Designed university monogram by winning logo submission contest with entry garnering over 3,000 community votes.</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="cv-section">
+						<h3 class="cv-section-title">Work Experience</h3>
+						<div class="cv-section-item">
+							<div><strong>2024–<br>ongoing</strong></div>
+							<div>
+								<div>No Replica</div>
+								<div><em>Founder and Principal Designer</em></div>
+							</div>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>2019–<br>2024</strong></div>
+							<div>
+								<div><em>Freelance Designer & Art Director</em></div>
+								<div>Selected clients: Design Observer, Williamstown Theatre Festival, Central Synagogue, The 24 Hour Plays, Dramatists Guild</div>
+								<div onclick="cvExpand(this);" data-active="0" class="cv-expand">Read more</div>
+							</div>
+							<ul data-active="0">
+								<li>Spearheaded numerous digital-first initiatives for major cultural institutions, including web-based theater programs for
+								Wiliamstown Theatre Festival, a first-of-its-kind online community for Central Synagogue, and several brand identities.</li>
+							</ul>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>6/2022–<br>8/2022</strong></div>
+							<div>
+								<div>Local Projects</div>
+								<div><em>Visual Experience Design Intern</em></div>
+								<div>New York, NY</div>
+								<div onclick="cvExpand(this);" data-active="0" class="cv-expand">Read more</div>
+							</div>
+							<ul data-active="0">
+								<li>Co-led research project with Creative Technologies intern to test immersive motion-tracking AR experience using ZED 2 camera.</li>
+								<li>Produced hundreds of final production assets for NYC museum children’s exhibit about Jewish life during the Holocaust.</li>
+								<li>Workshopped frequently with large corporate client to lock-in visual identity for multisensorial immersive exhibition space.</li>
+								<li>Pitched, designed, and approved visual moves for new National Park Service museum in Philadelphia.</li>
+							</ul>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>5/2019–<br>8/2019</strong></div>
+							<div>
+								<div>Williamstown Theatre Festival</div>
+								<div><em>Lead Graphic Designer</em></div>
+								<div>Williamstown, MA</div>
+								<div onclick="cvExpand(this);" data-active="0" class="cv-expand">Read more</div>
+							</div>
+							<ul data-active="0">
+								<li>Supervised design team of 2 by delegating tasks using Asana and mentoring on challenging projects.</li>
+								<li>Orchestrated seasonal branding identity and motion guidelines used for all digital and print marketing.</li>
+								<li>Engaged patrons with several weekly newsletters and designed over 40 promotional animations.</li>
+								<li>Assembled 52-page programs for 7 shows and oversaw extensive company-wide proofing process.</li>
+							</ul>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>7/2018–<br>9/2018</strong></div>
+							<div>
+								<div>Dramatists Guild</div>
+								<div><em>Membership & Creative Affairs Intern</em></div>
+								<div>New York, NY</div>
+								<div onclick="cvExpand(this);" data-active="0" class="cv-expand">Read more</div>
+							</div>
+							<ul data-active="0">
+								<li>Scripted, storyboarded, animated, and sound designed sizzle reel to promote membership benefits.</li>
+								<li>Analyzed brand materials to compile style guide and expand on company’s visual language.</li>
+								<li>Programmed 8 membership web pages premiering new visual elements and iconography.</li>
+							</ul>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>6/2017–<br>8/2017</strong></div>
+							<div>
+								<div>The 24 Hour Plays</div>
+								<div><em>Web & Graphic Design Intern</em></div>
+								<div>New York, NY</div>
+								<div onclick="cvExpand(this);" data-active="0" class="cv-expand">Read more</div>
+							</div>
+							<ul data-active="0">
+								<li>Designed company brand refresh and developed WordPress website.</li>
+								<li>Produced all print and digital marketing assets including posters, programs, and ads for 3 flagship productions.</li>
+								<li>Authored documentation for new visual language style guide and maintenance of website back-end.</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="cv-section">
+						<h3 class="cv-section-title">Teaching Experience</h3>
+						<div class="cv-section-item">
+							<div><strong>2022–<br>ongoing</strong></div>
+							<div>
+								<div>Rhode Island School of Design</div>
+								<div><em>Instructor in Graphic Design</em></div>
+								<div>Providence, RI</div>
+								<div>Selected courses: Web Sites & Stories, Digital Form, Variable Fonts Workshop, Web Programming Workshop</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cv-section">
+						<h3 class="cv-section-title">Recognitions</h3>
+						<div class="cv-section-item">
+							<div><strong>8/2019</strong></div>
+							<div>
+								<div><em>J. Michael Friedman Fellowship nominee</em></div>
+								<div>Williamstown Theatre Festival</div>
+							</div>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>5/2019</strong></div>
+							<div>
+								<div><em>Honors in Theater</em></div>
+								<div>Wesleyan University</div>
+							</div>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>5/2019</strong></div>
+							<div>
+								<div><em>Rachel Henderson Prize for Outstanding Achievement in Theater</em></div>
+								<div>Wesleyan University</div>
+							</div>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>3/2019</strong></div>
+							<div>
+								<div><em>Official University Monogram Design contest winner</em></div>
+								<div>Wesleyan University</div>
+							</div>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>5/2013</strong></div>
+							<div>
+								<div><em>“Our City, My Story” finalist</em></div>
+								<div>Tribeca Film Festival</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cv-section">
+						<h3 class="cv-section-title">Exhibitions</h3>
+						<div class="cv-section-item">
+							<div><strong>4/14–<br>4/30/2022</strong></div>
+							<div>
+								<div>RISD Graphic Design MFA Biennial:</div>
+								<div><em><a href='https://mfabiennial2023.risd.gd/' target='_blank'>Highlights from the Impermanent Collection</a></em></div>
+								<div>Providence, RI</div>
+							</div>
+						</div>
+						<div class="cv-section-item">
+							<div><strong>10/29–<br>11/14/2021</strong></div>
+							<div>
+								<div>RISD Graphic Design Triennial:</div>
+								<div><em><a href='https://portals.risd.gd/' target='_blank'>Portals</a></em></div>
+								<div>Providence, RI</div>
+							</div>
+						</div>
+					</div>
+				</main>
+
+			</div>
 
 			<footer class="footer">
 				© 2024 Gabriel Drozdov<br>
 				All Rights Reserved<br><br>
+				Typeset in Limkin by Gabriel Drozdov (me!)<br><br>
 				${buildDatetime}
 			</footer>
 
 			<script src="/navbar.js"></script>
+			<script src="about.js"></script>
 		</body>
 		</html>
 	`;
