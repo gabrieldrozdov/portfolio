@@ -408,7 +408,7 @@ function generatePages() {
 
 			<header class="header">
 				<h1 class="header-desc">
-					<strong>I’m Gabriel, a design and educator.</strong> I play with code, typography, and sound to create interactive digital experiences at the intersections of technology and performance.
+					<strong>I’m Gabriel, a designer and educator.</strong> I play with code, typography, and sound to create interactive digital experiences at the intersections of technology and performance.
 				</h1>
 				<div class="header-links">
 					<h2 class="header-links-title">
@@ -659,7 +659,7 @@ function generatePages() {
 					</h1>
 					<div class="about-bio">
 						<p>
-							I make websites. I make other things, too, but I really like making websites.
+							I make websites. I make other things too, but I really like making websites.
 						</p>
 						<p>
 							I studied computer science and theater at Wesleyan University, and I have since found that websites are the best way to bring those things together. I also studied graphic design in RISD’s MFA program. That made me love websites even more, as well as teaching.
