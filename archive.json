@@ -365,24 +365,480 @@
 		"active": false
 	},
 	{
+		"key": "dugong-exhibition",
+		"title": "Dugong Exhibition",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [],
+		"tags": "physical",
+		"year": 2022,
+		"sort-chrono": "2022-05-13",
+		"sort-custom": 5,
+		"sort-alpha": "dugong-exhibition",
+		"thumbnail": {
+			"format": "image",
+			"image": "dugong-thumbnail-alt.jpg",
+			"alt": "Dugong Exhibition"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "dugong-overview-top.jpg",
+				"alt": "Top overview"
+			},
+			{
+				"format": "image",
+				"image": "dugong-overview-topright.jpg",
+				"alt": "Angled overview"
+			},
+			{
+				"format": "image",
+				"image": "dugong-overview-topleft.jpg",
+				"alt": "Angled overview"
+			},
+			{
+				"format": "image",
+				"image": "dugong-overview-frontangle.jpg",
+				"alt": "Side overview"
+			},
+			{
+				"format": "image",
+				"image": "dugong-overview-front.jpg",
+				"alt": "Side overview"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space1-entrance.jpg",
+				"alt": "Zone 1 - entrance"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space1-signs.jpg",
+				"alt": "Zone 1 - signage"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space1-mombaby.jpg",
+				"alt": "Zone 1 - dugong sculptures"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space1-dugongs.jpg",
+				"alt": "Zone 1 - dugong sculptures"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space1-children.jpg",
+				"alt": "Zone 1 - dugong sculptures"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space2-climate.jpg",
+				"alt": "Zone 2 - signage"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space2-hallway.jpg",
+				"alt": "Zone 2 - hallway"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space2-seacow.jpg",
+				"alt": "Zone 2 - Steller's sea cow"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space3-overview.jpg",
+				"alt": "Zone 3 - overview"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space3-sign.jpg",
+				"alt": "Zone 3 - signage"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space3-manatee.jpg",
+				"alt": "Zone 3 - manatee"
+			},
+			{
+				"format": "image",
+				"image": "dugong-space3-dugongs.jpg",
+				"alt": "Zone 3 - dugong sculptures"
+			},
+			{
+				"format": "image",
+				"image": "dugong-upstairs-sign.jpg",
+				"alt": "Zone 4 - signage"
+			},
+			{
+				"format": "image",
+				"image": "dugong-upstairs-bridge.jpg",
+				"alt": "Zone 4 - bridge"
+			},
+			{
+				"format": "image",
+				"image": "dugong-upstairs-boat.jpg",
+				"alt": "Zone 4 - boat"
+			},
+			{
+				"format": "image",
+				"image": "dugong-detail-grass.jpg",
+				"alt": "Detail shot of grass styling"
+			},
+			{
+				"format": "image",
+				"image": "dugong-detail-lighthouse.jpg",
+				"alt": "Detail shot of lighthouse"
+			},
+			{
+				"format": "image",
+				"image": "dugong-detail-wall.jpg",
+				"alt": "Detail shot of dugong passing through a wall"
+			},
+			{
+				"format": "image",
+				"image": "dugong-detail-waves.jpg",
+				"alt": "Detail shot of waved walls"
+			},
+			{
+				"format": "image",
+				"image": "dugong-bts.jpg",
+				"alt": "Behind-the-scenes"
+			}
+		],
+		"color": "#afd1ec",
+		"invert": false,
+		"active": true
+	},
+	{
+		"key": "mariam-kamara-exhibition",
+		"title": "Mariam Kamara Exhibition",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [],
+		"tags": "physical",
+		"year": 2022,
+		"sort-chrono": "2022-03-18",
+		"sort-custom": 5,
+		"sort-alpha": "mariam-kamara-exhibition",
+		"thumbnail": {
+			"format": "image",
+			"image": "kamara-front.jpg",
+			"alt": "Mariam Kamara Exhibition"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "kamara-angle.jpg",
+				"alt": "Exhibition model (angled view)"
+			},
+			{
+				"format": "image",
+				"image": "kamara-mid.jpg",
+				"alt": "Exhibition model (front view)"
+			},
+			{
+				"format": "image",
+				"image": "kamara-top.jpg",
+				"alt": "Exhibition model (top view)"
+			},
+			{
+				"format": "image",
+				"image": "kamara-site.jpg",
+				"alt": "Proposed site"
+			},
+			{
+				"format": "video",
+				"image": "kamara-sketch1.jpg",
+				"video": "kamara-sketch1.mp4",
+				"alt": "Paper sketch"
+			},
+			{
+				"format": "video",
+				"image": "kamara-sketch2.jpg",
+				"video": "kamara-sketch2.mp4",
+				"alt": "Paper sketch"
+			}
+		],
+		"color": "#a0de7b",
+		"invert": false,
+		"active": true
+	},
+	{
 		"key": "design-community-prototype",
 		"title": "Design + Community Prototype",
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the final report",
+				"design-community-final-report.pdf"
+			],
+			[
+				"See a PDF of the project summary",
+				"design-community-summary.pdf"
+			],
+			[
+				"See a PDF of the research report",
+				"design-community-research.pdf"
+			],
+			[
+				"Try out the website prototype",
+				"https://gabrieldrozdov.github.io/risd22-source/prototype/"
+			],
+			[
+				"Try out the website prototype (test content version)",
+				"https://gabrieldrozdov.github.io/risd22-source/prototype/index-alt.html"
+			]
+		],
 		"tags": "interactive, web",
 		"year": 2022,
 		"sort-chrono": "2022-12-11",
 		"sort-custom": 3,
 		"sort-alpha": "design-community-prototype",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "design-community.png",
+			"alt": "Design + Community Prototype"
 		},
-		"assets": [],
-		"color": "gray",
+		"assets": [
+			{
+				"format": "image",
+				"image": "design-community-workshop.jpg",
+				"alt": "Research workshop"
+			},
+			{
+				"format": "video",
+				"image": "design-community-prototype1.jpg",
+				"video": "design-community-prototype1.mp4",
+				"alt": "Web user interface prototype"
+			},
+			{
+				"format": "video",
+				"image": "design-community-prototype2.jpg",
+				"video": "design-community-prototype2.mp4",
+				"alt": "Web user interface prototype with test content"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide1.jpg",
+				"alt": "Final report slide 1"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide2.jpg",
+				"alt": "Final report slide 2"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide3.jpg",
+				"alt": "Final report slide 3"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide4.jpg",
+				"alt": "Final report slide 4"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide5.jpg",
+				"alt": "Final report slide 5"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide6.jpg",
+				"alt": "Final report slide 6"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide7.jpg",
+				"alt": "Final report slide 7"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide8.jpg",
+				"alt": "Final report slide 8"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide9.jpg",
+				"alt": "Final report slide 9"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide10.jpg",
+				"alt": "Final report slide 10"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide11.jpg",
+				"alt": "Final report slide 11"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide12.jpg",
+				"alt": "Final report slide 12"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide13.jpg",
+				"alt": "Final report slide 13"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide14.jpg",
+				"alt": "Final report slide 14"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide15.jpg",
+				"alt": "Final report slide 15"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide16.jpg",
+				"alt": "Final report slide 16"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide17.jpg",
+				"alt": "Final report slide 17"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide18.jpg",
+				"alt": "Final report slide 18"
+			},
+			{
+				"format": "image",
+				"image": "design-community-slide19.jpg",
+				"alt": "Final report slide 19"
+			}
+		],
+		"color": "#ec008c",
+		"invert": true,
+		"active": true
+	},
+	{
+		"key": "tokyo-olympics",
+		"title": "Tokyo Olympics Schedule",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [
+			[
+				"See a PDF of the posters",
+				"tokyo-olympics.pdf"
+			]
+		],
+		"tags": "poster",
+		"year": 2022,
+		"sort-chrono": "2022-09-30",
+		"sort-custom": 5,
+		"sort-alpha": "tokyo-olympics",
+		"thumbnail": {
+			"format": "image",
+			"image": "tokyo-olympics.jpg",
+			"alt": "Tokyo Olympics Schedule"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "tokyo-poster1.jpg",
+				"alt": "August 4 schedule"
+			},
+			{
+				"format": "image",
+				"image": "tokyo-poster2.jpg",
+				"alt": "August 5 schedule"
+			}
+		],
+		"color": "#fcb52e",
 		"invert": false,
-		"active": false
+		"active": true
+	},
+	{
+		"key": "a-feminist-turn",
+		"title": "A Feminist Turn",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [
+			[
+				"See a PDF of the compositions",
+				"a-feminist-turn.pdf"
+			]
+		],
+		"tags": "poster",
+		"year": 2022,
+		"sort-chrono": "2022-04-06",
+		"sort-custom": 5,
+		"sort-alpha": "a-feminist-turn",
+		"thumbnail": {
+			"format": "image",
+			"image": "a-feminist-turn.jpg",
+			"alt": "A Feminist Turn"
+		},
+		"assets": [
+			{
+				"format": "video",
+				"image": "a-feminist-turn-all.jpg",
+				"video": "a-feminist-turn-all.mp4",
+				"alt": "All compositions"
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-1.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-2.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-3.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-4.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-5.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-6.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-7.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-8.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "a-feminist-turn-9.jpg",
+				"alt": ""
+			}
+		],
+		"color": "#eee",
+		"invert": false,
+		"active": true
 	},
 	{
 		"key": "pixel-weaver-1",
@@ -490,19 +946,88 @@
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the brand guidelines",
+				"galapagos-islands-overview.pdf"
+			],
+			[
+				"See a PDF of the brochure",
+				"galapagos-islands-brochure.pdf"
+			],
+			[
+				"Visit the website",
+				"https://gabrieldrozdov.github.io/unesco-galapagos/"
+			]
+		],
 		"tags": "branding, logo, publication, typeface, web",
 		"year": 2022,
 		"sort-chrono": "2022-12-02",
 		"sort-custom": 2,
 		"sort-alpha": "galapagos-islands",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "video",
+			"image": "galapagos-logo.png",
+			"video": "galapagos-logo.mp4",
+			"alt": "Galápagos Islands"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "galapagos-branding.png",
+				"alt": "Logo and color palette"
+			},
+			{
+				"format": "image",
+				"image": "galapagos-newyorker.jpg",
+				"alt": "Magazine ads"
+			},
+			{
+				"format": "video",
+				"image": "galapagos-brochure.jpg",
+				"video": "galapagos-brochure.mp4",
+				"alt": "Brochure"
+			},
+			{
+				"format": "image",
+				"image": "galapagos-envelope.gif",
+				"alt": "Envelopes"
+			},
+			{
+				"format": "image",
+				"image": "galapagos-letterhead.jpg",
+				"alt": "Letterhead"
+			},
+			{
+				"format": "image",
+				"image": "galapagos-business-card.gif",
+				"alt": "Business card"
+			},
+			{
+				"format": "image",
+				"image": "galapagos-van.jpg",
+				"alt": "Van decals"
+			},
+			{
+				"format": "image",
+				"image": "galapagos-website.jpg",
+				"alt": "Website"
+			},
+			{
+				"format": "video",
+				"image": "galapagos-website-recording.jpg",
+				"video": "galapagos-website-recording.mp4",
+				"alt": "Website recording"
+			},
+			{
+				"format": "image",
+				"image": "galapagos-islands-overview.jpg",
+				"alt": "Brand overview"
+			}
+		],
+		"color": "#64D983",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "new-york-neo-futurists",
@@ -517,12 +1042,90 @@
 		"sort-custom": 3,
 		"sort-alpha": "new-york-neo-futurists",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "nynf.png",
+			"alt": "New York Neo-Futurists"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "nynf-final.png",
+				"alt": "Final Logo"
+			},
+			{
+				"format": "image",
+				"image": "nynf-colors.png",
+				"alt": "Brand color palette"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept1.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept2.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept3.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept4.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept5.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept6.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept7.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept8.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept9.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept10.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept11.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept12.png",
+				"alt": "Unused logo concept"
+			},
+			{
+				"format": "image",
+				"image": "nynf-concept13.png",
+				"alt": "Unused logo concept"
+			}
+		],
+		"color": "#f94832",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "what-goes-on-a-sign",
@@ -530,19 +1133,77 @@
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the book",
+				"what-goes-on-a-sign.pdf"
+			]
+		],
 		"tags": "publication",
 		"year": 2022,
 		"sort-chrono": "2022-11-09",
 		"sort-custom": 4,
 		"sort-alpha": "what-goes-on-a-sign",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "what-goes-on-a-sign-alt.jpg",
+			"alt": "What Goes on a Sign?"
 		},
-		"assets": [],
-		"color": "gray",
+		"assets": [
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-fullbook.jpg",
+				"alt": "Cover"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread1.jpg",
+				"alt": "Book spread (“Street Shoes”)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread2.jpg",
+				"alt": "Book spread (2022 New Year’s glasses)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread3.jpg",
+				"alt": "Book spread (King Charles III royal cypher)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread4.jpg",
+				"alt": "Book spread (electric vehicle charging station)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread5.jpg",
+				"alt": "Book spread (“ART AGAINST AIDS”)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread6.jpg",
+				"alt": "Book spread (TiVo)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread7.jpg",
+				"alt": "Book spread (Bitcoin)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread8.jpg",
+				"alt": "Book spread (RISD)"
+			},
+			{
+				"format": "image",
+				"image": "what-goes-on-a-sign-spread9.jpg",
+				"alt": "Book spread (Citibank)"
+			}
+		],
+		"color": "#fedc00",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "whist-plates",
@@ -557,12 +1218,116 @@
 		"sort-custom": 3,
 		"sort-alpha": "whist-plates",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "video",
+			"image": "whist-1a.jpg",
+			"video": "whist.mp4",
+			"alt": "Whist Plates"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "whist-1a.jpg",
+				"alt": "Plate 01 - Substance - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-1b.jpg",
+				"alt": "Plate 01 - Substance - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-2a.jpg",
+				"alt": "Plate 02 - Quantity - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-2b.jpg",
+				"alt": "Plate 02 - Quantity - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-3a.jpg",
+				"alt": "Plate 03 - Quality - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-3b.jpg",
+				"alt": "Plate 03 - Quality - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-4a.jpg",
+				"alt": "Plate 04 - Relation - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-4b.jpg",
+				"alt": "Plate 04 - Relation - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-5a.jpg",
+				"alt": "Plate 05 - Place - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-5b.jpg",
+				"alt": "Plate 05 - Place - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-6a.jpg",
+				"alt": "Plate 06 - Time - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-6b.jpg",
+				"alt": "Plate 06 - Time - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-7a.jpg",
+				"alt": "Plate 07 - Position - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-7b.jpg",
+				"alt": "Plate 07 - Position - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-8a.jpg",
+				"alt": "Plate 08 - State - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-8b.jpg",
+				"alt": "Plate 08 - State - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-9a.jpg",
+				"alt": "Plate 09 - Action - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-9b.jpg",
+				"alt": "Plate 09 - Action - Side B"
+			},
+			{
+				"format": "image",
+				"image": "whist-10a.jpg",
+				"alt": "Plate 10 - Affection - Side A"
+			},
+			{
+				"format": "image",
+				"image": "whist-10b.jpg",
+				"alt": "Plate 10 - Affection - Side B"
+			}
+		],
+		"color": "#bf5f49",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "breaking-news",
@@ -577,12 +1342,37 @@
 		"sort-custom": 2,
 		"sort-alpha": "breaking-news-youll-never-hear-about",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "video",
+			"image": "breakingnews-thumbnail.jpg",
+			"video": "breakingnews-thumbnail.mp4",
+			"alt": "Breaking News (You’ll Never Hear About)"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "video",
+				"image": "breakingnews-sample.jpg",
+				"video": "breakingnews-sample.mp4",
+				"alt": "Full experience"
+			},
+			{
+				"format": "image",
+				"image": "breakingnews-intro.jpg",
+				"alt": "Intro screen"
+			},
+			{
+				"format": "image",
+				"image": "breakingnews-hover.jpg",
+				"alt": "Hover state (“out of free articles”)"
+			},
+			{
+				"format": "image",
+				"image": "breakingnews-article.jpg",
+				"alt": "AI-generated news article"
+			}
+		],
+		"color": "#fe0000",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "hot-glue-experiments",
@@ -590,19 +1380,82 @@
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"Read about the first phase of this project, “Defaults”",
+				"tool-part1-defaults.pdf"
+			],
+			[
+				"Read about the second phase of this project, “Beyond Defaults”",
+				"tool-part1-beyond-defaults.pdf"
+			],
+			[
+				"Read about the final phase of this project, “Translations”",
+				"tool-part1-translation.pdf"
+			]
+		],
 		"tags": "physical",
 		"year": 2022,
-		"sort-chrono": "2022-10-04",
+		"sort-chrono": "2022-03-14",
 		"sort-custom": 4,
 		"sort-alpha": "hot-glue-experiments",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "hot-glue-scan.jpg",
+			"alt": "Hot Glue Experiments"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "hot-glue-wisps1.jpg",
+				"alt": "Hot glue in water"
+			},
+			{
+				"format": "image",
+				"image": "hot-glue-wisps2.jpg",
+				"alt": "Hot glue in water"
+			},
+			{
+				"format": "image",
+				"image": "hot-glue-gold1.jpg",
+				"alt": "Hot glue filled with glitter"
+			},
+			{
+				"format": "image",
+				"image": "hot-glue-gold2.jpg",
+				"alt": "Hot glue filled with glitter"
+			},
+			{
+				"format": "image",
+				"image": "hot-glue-strands.jpg",
+				"alt": "Hot glue strands"
+			},
+			{
+				"format": "image",
+				"image": "hot-glue-bubble.jpg",
+				"alt": "Hot glue encasing cooking spices"
+			},
+			{
+				"format": "image",
+				"image": "hot-glue-bts.jpg",
+				"alt": "Behind the scenes"
+			},
+			{
+				"format": "video",
+				"image": "hot-glue-video1.jpg",
+				"video": "hot-glue-video1.mp4",
+				"alt": "Experimental video"
+			},
+			{
+				"format": "video",
+				"image": "hot-glue-video2.jpg",
+				"video": "hot-glue-video2.mp4",
+				"alt": "Experimental video"
+			}
+		],
+		"color": "#5f93a6",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "atlas",
@@ -610,19 +1463,77 @@
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the spreads",
+				"atlas.pdf"
+			]
+		],
 		"tags": "publication",
 		"year": 2022,
 		"sort-chrono": "2022-10-03",
-		"sort-custom": 2,
+		"sort-custom": 1,
 		"sort-alpha": "atlas",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "atlas-alt.jpg",
+			"alt": "Atlas"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "atlas-spread1.jpg",
+				"alt": "Page 1 (right)"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread2.jpg",
+				"alt": "Pages 2–3"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread3.jpg",
+				"alt": "Pages 4–5"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread4.jpg",
+				"alt": "Pages 6–7"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread5.jpg",
+				"alt": "Pages 8–9"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread6.jpg",
+				"alt": "Pages 10–11"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread7.jpg",
+				"alt": "Pages 12–13"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread8.jpg",
+				"alt": "Pages 14–15"
+			},
+			{
+				"format": "image",
+				"image": "atlas-spread9.jpg",
+				"alt": "Page 16 (left)"
+			},
+			{
+				"format": "image",
+				"image": "atlas-draft.jpg",
+				"alt": "Scaled-down test print"
+			}
+		],
+		"color": "#a6a6a6",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "exactitude",
@@ -637,12 +1548,41 @@
 		"sort-custom": 4,
 		"sort-alpha": "exactitude",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "exactitude-thumbnail.jpg",
+			"alt": "Exactitude"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "video",
+				"image": "exactitude-small.jpg",
+				"video": "exactitude-small.mp4",
+				"alt": "“Exactitude,” cut exactly to fit"
+			},
+			{
+				"format": "image",
+				"image": "exactitude-definition1.jpg",
+				"alt": "“Exactitude,” narrowing down the exact definition"
+			},
+			{
+				"format": "image",
+				"image": "exactitude-definition2.jpg",
+				"alt": "“Exactitude,” narrowing down the exact definition (alternate crop)"
+			},
+			{
+				"format": "image",
+				"image": "exactitude-blur.jpg",
+				"alt": "“Exactitude,” finding the exact size"
+			},
+			{
+				"format": "image",
+				"image": "exactitude-colorful.jpg",
+				"alt": "“Exactitude,” using the exact CMYK spectrum and exactly filling up the space"
+			}
+		],
+		"color": "#96a4c9",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "web-programming-workshop-2022",
@@ -723,6 +1663,64 @@
 		"active": true
 	},
 	{
+		"key": "first-bank",
+		"title": "First Bank of the United States",
+		"subtitle": "at Local Projects, for the National Park Service",
+		"tagline": "",
+		"desc": "<p>Documentation by <a href='https://localprojects.com/work/institutional-hospital-university-college/first-bank-of-the-united-states/' target='_blank'>Local Projects</a>.</p>",
+		"links": [],
+		"tags": "physical",
+		"year": 2022,
+		"sort-chrono": "2022-08-00",
+		"sort-custom": 2,
+		"sort-alpha": "first-bank",
+		"thumbnail": {
+			"format": "image",
+			"image": "first-bank.jpg",
+			"alt": "First Bank of the United States"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "first-bank-entrance.jpg",
+				"alt": "Introductory experience"
+			},
+			{
+				"format": "image",
+				"image": "first-bank-rotunda.jpg",
+				"alt": "Central rotunda"
+			},
+			{
+				"format": "image",
+				"image": "first-bank-money.jpg",
+				"alt": "Section focusing on money"
+			},
+			{
+				"format": "image",
+				"image": "first-bank-slavery.jpg",
+				"alt": "Section focusing on slavery"
+			},
+			{
+				"format": "image",
+				"image": "first-bank-land.jpg",
+				"alt": "Section focusing on land"
+			},
+			{
+				"format": "image",
+				"image": "first-bank-work.jpg",
+				"alt": "Section focusing on work"
+			},
+			{
+				"format": "image",
+				"image": "first-bank-trade.jpg",
+				"alt": "Section focusing on trade"
+			}
+		],
+		"color": "#d96b31",
+		"invert": true,
+		"active": true
+	},
+	{
 		"key": "scent-discovery",
 		"title": "Scent Discovery",
 		"subtitle": "at Local Projects, for the World of Coca-Cola",
@@ -776,19 +1774,64 @@
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the book",
+				"the-crying-of-lot-49.pdf"
+			]
+		],
 		"tags": "publication",
 		"year": 2022,
 		"sort-chrono": "2022-05-21",
 		"sort-custom": 2,
 		"sort-alpha": "crying-of-lot-49",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "lot49-photo-stitching.jpg",
+			"alt": "The Crying of Lot 49"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "video",
+				"image": "lot49-fullbook.jpg",
+				"video": "lot49-fullbook.mp4",
+				"alt": "Full book"
+			},
+			{
+				"format": "video",
+				"image": "lot49-overview.jpg",
+				"video": "lot49-overview.mp4",
+				"alt": "Printed copy overview"
+			},
+			{
+				"format": "image",
+				"image": "lot49-photo-top.jpg",
+				"alt": "Printed copy cover"
+			},
+			{
+				"format": "image",
+				"image": "lot49-photo-side.jpg",
+				"alt": "Printed copy cover"
+			},
+			{
+				"format": "image",
+				"image": "lot49-photo-spine.jpg",
+				"alt": "Printed copy spine"
+			},
+			{
+				"format": "image",
+				"image": "lot49-photo-fan.jpg",
+				"alt": "Printed copy pages"
+			},
+			{
+				"format": "image",
+				"image": "lot49-photo-spread.jpg",
+				"alt": "Printed copy spread"
+			}
+		],
+		"color": "#233143",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "wikipedia-township",
@@ -816,19 +1859,68 @@
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the book",
+				"daily-practices.pdf"
+			]
+		],
 		"tags": "publication",
 		"year": 2022,
 		"sort-chrono": "2022-05-17",
 		"sort-custom": 4,
 		"sort-alpha": "daily-practices",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "daily-practices-cover.jpg",
+			"alt": "Daily Practices"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "video",
+				"image": "daily-practices.jpg",
+				"video": "daily-practices.mp4",
+				"alt": "Full book"
+			},
+			{
+				"format": "image",
+				"image": "daily-practices-corner.jpg",
+				"alt": "Spine/binding, made of stacked paper scraps"
+			},
+			{
+				"format": "image",
+				"image": "daily-practices-spine1.jpg",
+				"alt": "Spine/binding, made of stacked paper scraps"
+			},
+			{
+				"format": "image",
+				"image": "daily-practices-spine2.jpg",
+				"alt": "Spine/binding, made of stacked paper scraps"
+			},
+			{
+				"format": "image",
+				"image": "daily-practices-spine3.jpg",
+				"alt": "Spine/binding, made of stacked paper scraps"
+			},
+			{
+				"format": "image",
+				"image": "daily-practices-text.jpg",
+				"alt": "Detail of text content"
+			},
+			{
+				"format": "image",
+				"image": "daily-practices-faces.jpg",
+				"alt": "Page spread"
+			},
+			{
+				"format": "image",
+				"image": "daily-practices-fluid.jpg",
+				"alt": "Page spread"
+			}
+		],
+		"color": "#bea07e",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "tag-team-calligraphers",
@@ -843,32 +1935,165 @@
 		"sort-custom": 2,
 		"sort-alpha": "tag-team-calligraphers",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "video",
+			"image": "ttg-thumbnail.jpg",
+			"video": "ttg-thumbnail.mp4",
+			"alt": "Tag Team Calligraphers"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "video",
+				"image": "ttg-overview.jpg",
+				"video": "ttg-overview.mp4",
+				"alt": "Full experience"
+			},
+			{
+				"format": "image",
+				"image": "ttg-output1.jpg",
+				"alt": "Example results (face)"
+			},
+			{
+				"format": "image",
+				"image": "ttg-output2.jpg",
+				"alt": "Example results (face)"
+			},
+			{
+				"format": "image",
+				"image": "ttg-output3.jpg",
+				"alt": "Example results (”Hello!”)"
+			},
+			{
+				"format": "image",
+				"image": "ttg-output4.jpg",
+				"alt": "Example results (dinosaur)"
+			},
+			{
+				"format": "image",
+				"image": "ttg-output5.jpg",
+				"alt": "Example results (cat)"
+			},
+			{
+				"format": "image",
+				"image": "ttg-output6.jpg",
+				"alt": "Example results (“A”)"
+			},
+			{
+				"format": "image",
+				"image": "ttg-output7.jpg",
+				"alt": "Example results (trees)"
+			}
+		],
+		"color": "#ea3323",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "that-then-this",
 		"title": "That Then This",
-		"subtitle": "Too Much Type",
+		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the brand style guide",
+				"that-then-this.pdf"
+			]
+		],
 		"tags": "branding, motion, typeface",
 		"year": 2022,
 		"sort-chrono": "2022-04-24",
 		"sort-custom": 3,
 		"sort-alpha": "that-then-this",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "thatthenthis-thumbnail.png",
+			"alt": "That Then This"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "thatthenthis-logo.png",
+				"alt": "Logo"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-monogram.png",
+				"alt": "Monogram"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-poster.jpg",
+				"alt": "Poster"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-website.jpg",
+				"alt": "Website"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-brochure.jpg",
+				"alt": "Brochure"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-socialmedia.png",
+				"alt": "Social media"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-buswrap.png",
+				"alt": "Bus wrap"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-wristbands.png",
+				"alt": "Wristbands"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-lanyards.png",
+				"alt": "Lanyards"
+			},
+			{
+				"format": "image",
+				"image": "thatthenthis-supergraphics.png",
+				"alt": "Supergraphics"
+			},
+			{
+				"format": "videosound",
+				"image": "thatthenthis-promo1.jpg",
+				"video": "thatthenthis-promo1.mp4",
+				"alt": "Promo video"
+			},
+			{
+				"format": "videosound",
+				"image": "thatthenthis-promo2.jpg",
+				"video": "thatthenthis-promo2.mp4",
+				"alt": "Promo video"
+			},
+			{
+				"format": "video",
+				"image": "thatthenthis-draft1.jpg",
+				"video": "thatthenthis-draft1.mp4",
+				"alt": "Animation draft"
+			},
+			{
+				"format": "video",
+				"image": "thatthenthis-draft2.jpg",
+				"video": "thatthenthis-draft2.mp4",
+				"alt": "Animation draft"
+			},
+			{
+				"format": "video",
+				"image": "thatthenthis-draft3.jpg",
+				"video": "thatthenthis-draft3.mp4",
+				"alt": "Animation draft"
+			}
+		],
+		"color": "#ff3090",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "mini-mochi",
@@ -916,19 +2141,75 @@
 		"subtitle": "",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the article",
+				"smutty-mystic.pdf"
+			]
+		],
 		"tags": "publication, web",
 		"year": 2022,
 		"sort-chrono": "2022-03-15",
 		"sort-custom": 4,
 		"sort-alpha": "smutty-mystic",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "smuttymystic-alt.jpg",
+			"alt": "The Smutty Mystic"
 		},
-		"assets": [],
-		"color": "gray",
+		"assets": [
+			{
+				"format": "video",
+				"image": "smuttymystic-website.jpg",
+				"video": "smuttymystic-website.mp4",
+				"alt": "Website"
+			},
+			{
+				"format": "image",
+				"image": "smuttymystic-cover.jpg",
+				"alt": "Magazine cover"
+			},
+			{
+				"format": "image",
+				"image": "smuttymystic-contents.jpg",
+				"alt": "Table of contents"
+			},
+			{
+				"format": "image",
+				"image": "smuttymystic-opener.jpg",
+				"alt": "Article lead"
+			},
+			{
+				"format": "image",
+				"image": "smuttymystic-spread1.jpg",
+				"alt": "Article spread"
+			},
+			{
+				"format": "image",
+				"image": "smuttymystic-spread2.jpg",
+				"alt": "Article spread"
+			},
+			{
+				"format": "image",
+				"image": "smuttymystic-spread3.jpg",
+				"alt": "Article spread"
+			},
+			{
+				"format": "video",
+				"image": "smuttymystic-draft.jpg",
+				"video": "smuttymystic-draft.mp4",
+				"alt": "Layout draft"
+			},
+			{
+				"format": "video",
+				"image": "smuttymystic-concepts.jpg",
+				"video": "smuttymystic-concepts.mp4",
+				"alt": "Concept drafts"
+			}
+		],
+		"color": "#dccec4",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "gift-fonts",
@@ -936,19 +2217,91 @@
 		"subtitle": "Too Much Type",
 		"tagline": "",
 		"desc": "",
-		"links": [],
+		"links": [
+			[
+				"See a PDF of the presentation",
+				"gift-fonts-presentation.pdf"
+			],
+			[
+				"Download Alec’s font",
+				"UOAlec.otf"
+			],
+			[
+				"Download Berett’s font",
+				"UOBerett.otf"
+			],
+			[
+				"Download Claudia’s font",
+				"UOClaudia.otf"
+			],
+			[
+				"Download Emily’s font",
+				"UOEmily.otf"
+			],
+			[
+				"Download Kaela’s font",
+				"UOKaela.otf"
+			],
+			[
+				"Download Lydia’s font",
+				"UOLydia.otf"
+			]
+		],
 		"tags": "typeface",
 		"year": 2022,
 		"sort-chrono": "2022-03-08",
 		"sort-custom": 4,
 		"sort-alpha": "gift-fonts",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "gift-fonts.jpg",
+			"alt": "Gift fonts"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "gift-fonts-alphabet.jpg",
+				"alt": "Full alphabet for all six fonts"
+			},
+			{
+				"format": "image",
+				"image": "gift-fonts-alec.jpg",
+				"alt": "Alec’s font"
+			},
+			{
+				"format": "image",
+				"image": "gift-fonts-berett.jpg",
+				"alt": "Berett’s font"
+			},
+			{
+				"format": "image",
+				"image": "gift-fonts-claudia.jpg",
+				"alt": "Claudia’s font"
+			},
+			{
+				"format": "image",
+				"image": "gift-fonts-emily.jpg",
+				"alt": "Emily’s font"
+			},
+			{
+				"format": "image",
+				"image": "gift-fonts-kaela.jpg",
+				"alt": "Kaela’s font"
+			},
+			{
+				"format": "image",
+				"image": "gift-fonts-lydia.jpg",
+				"alt": "Lydia’s font"
+			},
+			{
+				"format": "image",
+				"image": "gift-fonts-thankyou.jpg",
+				"alt": "Closing slide (”THANK YOU ALL FOR YOUR TIME”)"
+			}
+		],
+		"color": "#a0a1a4",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "nothing-matches-the-feeling",
@@ -1100,7 +2453,7 @@
 		"sort-alpha": "to-home-to-home",
 		"thumbnail": {
 			"format": "image",
-			"image": "to-home-to-home.jpg",
+			"image": "to-home-to-home-alt.jpg",
 			"alt": "To Home?? To Home!!"
 		},
 		"assets": [
@@ -1235,7 +2588,7 @@
 		"desc": "<p>The final project for Nancy Skolos’ Graduate Type Studio I at RISD was to create a zine that documented our work during the semester and connected it to a cohesive theme. For my zine, I decided to typset Ashley Lee’s article <a href='https://www.latimes.com/entertainment-arts/story/2021-09-25/williamstown-theatre-festival-workplace-safety-culture' target='_blank'>“Inside the battle to change a prestigious theater festival’s ‘broken’ culture”</a> for the Los Angeles Times. The article discusses the challenges faced by Williamstown Theatre Festival under the leadership of former artistic director Mandy Greenfield.</p>",
 		"links": [
 			[
-				"See the full zine",
+				"See a PDF of the zine",
 				"this-is-not-a-show.pdf"
 			]
 		],
@@ -1251,30 +2604,85 @@
 		},
 		"assets": [
 			{
-				"format": "videosound",
-				"image": "risd-type1-zine.jpg",
-				"video": "risd-type1-zine.mp4",
+				"format": "video",
+				"image": "risd-type1-zine-print1.jpg",
+				"video": "risd-type1-zine-print.mp4",
 				"alt": "Full zine"
 			},
 			{
 				"format": "image",
-				"image": "risd-type1-zine-overview1.jpg",
-				"alt": "Pages 1 to 7"
+				"image": "risd-type1-zine-print1.jpg",
+				"alt": "Front cover"
 			},
 			{
 				"format": "image",
-				"image": "risd-type1-zine-overview2.jpg",
-				"alt": "Pages 8 to 15"
+				"image": "risd-type1-zine-print2.jpg",
+				"alt": "Pages 2–3"
 			},
 			{
 				"format": "image",
-				"image": "risd-type1-zine-overview3.jpg",
-				"alt": "Pages 16 to 23"
+				"image": "risd-type1-zine-print3.jpg",
+				"alt": "Pages 4–5"
 			},
 			{
 				"format": "image",
-				"image": "risd-type1-zine-overview4.jpg",
-				"alt": "Pages 24 to 28"
+				"image": "risd-type1-zine-print4.jpg",
+				"alt": "Pages 6–7"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print5.jpg",
+				"alt": "Pages 8–9"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print6.jpg",
+				"alt": "Pages 10–11"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print7.jpg",
+				"alt": "Pages 12–13"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print8.jpg",
+				"alt": "Pages 14–15"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print9.jpg",
+				"alt": "Pages 16–17"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print10.jpg",
+				"alt": "Pages 18–19"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print11.jpg",
+				"alt": "Pages 20–21"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print12.jpg",
+				"alt": "Pages 22–23"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print13.jpg",
+				"alt": "Pages 24–25"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print14.jpg",
+				"alt": "Pages 26–27"
+			},
+			{
+				"format": "image",
+				"image": "risd-type1-zine-print15.jpg",
+				"alt": "Back cover"
 			},
 			{
 				"format": "image",
@@ -1290,11 +2698,6 @@
 				"format": "image",
 				"image": "risd-type1-zine-p9.jpg",
 				"alt": "Detail from page 9"
-			},
-			{
-				"format": "image",
-				"image": "risd-type1-zine-p12.jpg",
-				"alt": "Detail from page 12"
 			},
 			{
 				"format": "image",
@@ -1327,7 +2730,7 @@
 				"alt": "Detail from page 28"
 			}
 		],
-		"color": "#2f302d",
+		"color": "#b0b0b0",
 		"invert": true,
 		"active": true
 	},
@@ -1345,7 +2748,7 @@
 		"sort-alpha": "graphic-collages",
 		"thumbnail": {
 			"format": "image",
-			"image": "risd-form1-thumbnail.jpg",
+			"image": "risd-form1-thumbnail-alt.jpg",
 			"alt": "Graphic Collages"
 		},
 		"assets": [
@@ -1446,7 +2849,7 @@
 		"sort-alpha": "london-underground-map",
 		"thumbnail": {
 			"format": "image",
-			"image": "london-underground-map.jpg",
+			"image": "london-underground-map-alt.jpg",
 			"alt": "London Underground Map"
 		},
 		"assets": [
@@ -1473,7 +2876,7 @@
 		"desc": "<p>“Two Designer Timeline” was the final project for History of Graphic Design, which I completed as part of RISD’s 3-year MFA in Graphic Design. Doug Scott taught the course during the Fall 2021 semester.</p><p>For the project, I was assigned the Dutch De Stijl designer Paul Schuitema. I chose Google’s Vice President of Design Matías Duarte as a contemporary designer to compare Schuitema’s work against. The finished book functions as a do-si-do accordion, consisting of 38 10&quot;x10&quot; pages arranged in two 19-page runs. Duarte was born the same year Schuitema passed away, so the book forms a continuous timeline.</p>",
 		"links": [
 			[
-				"See the full book",
+				"See a PDF of the book",
 				"schuitema-duarte.pdf"
 			]
 		],
@@ -1489,6 +2892,12 @@
 		},
 		"assets": [
 			{
+				"format": "embed",
+				"image": "schuitema-duarte-printed.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/920301504' frameborder='0' allow='fullscreen;'></iframe>",
+				"alt": "Printed copy"
+			},
+			{
 				"format": "image",
 				"image": "schuitema-duarte-side1.jpg",
 				"alt": "Side 1: Paul Schuitema"
@@ -1502,6 +2911,11 @@
 				"format": "image",
 				"image": "schuitema-duarte-full.jpg",
 				"alt": "Book laid out in full"
+			},
+			{
+				"format": "image",
+				"image": "schuitema-duarte-font.jpg",
+				"alt": "Digital revival of an alphabet designed by Schuitema"
 			}
 		],
 		"color": "#cb221b",
@@ -1549,7 +2963,7 @@
 		"desc": "<p>The Memory Book memorializes the congregants or family members who recently passed away.</p>",
 		"links": [
 			[
-				"See the full book",
+				"See a PDF of the book",
 				"memory-book.pdf"
 			]
 		],
@@ -1560,7 +2974,7 @@
 		"sort-alpha": "memory-book",
 		"thumbnail": {
 			"format": "image",
-			"image": "cs-memory-magazine.jpg",
+			"image": "cs-memory-alt.jpg",
 			"alt": "Memory Book"
 		},
 		"assets": [
@@ -1569,11 +2983,16 @@
 				"image": "cs-memory.jpg",
 				"video": "cs-memory.mp4",
 				"alt": "Full book"
+			},
+			{
+				"format": "image",
+				"image": "cs-memory-magazine.jpg",
+				"alt": "Print publication"
 			}
 		],
 		"color": "#7382b6",
 		"invert": true,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "5782-clergy-card",
@@ -1583,7 +3002,7 @@
 		"desc": "<p>As an annual tradition, <a href='https://www.centralsynagogue.org/' target='_blank'>Central Synagogue’s</a> lead clergy members send all of their congregants a holiday card commemorating another year of worship. To honor their first year of returning to limited in-person services since COVID, I designed a card that highlighted Central’s connection to NYC’s unique community and culture.</p>",
 		"links": [
 			[
-				"See the full card",
+				"See a PDF of the card",
 				"5782-clergy-card.pdf"
 			]
 		],
@@ -1593,12 +3012,43 @@
 		"sort-custom": 4,
 		"sort-alpha": "5782-clergy-card",
 		"thumbnail": {
-			"format": "video",
-			"image": "cs-clergycard.jpg",
-			"video": "cs-clergycard.mp4",
+			"format": "image",
+			"image": "5782-clergy-card.jpg",
 			"alt": "5782 Clergy Card"
 		},
 		"assets": [
+			{
+				"format": "video",
+				"image": "5782-clergy-card.jpg",
+				"video": "5782-clergy-card.mp4",
+				"alt": "Printed card"
+			},
+			{
+				"format": "image",
+				"image": "5782-clergy-card-1.jpg",
+				"alt": "Cover"
+			},
+			{
+				"format": "image",
+				"image": "5782-clergy-card-2.jpg",
+				"alt": "Partially opened"
+			},
+			{
+				"format": "image",
+				"image": "5782-clergy-card-3.jpg",
+				"alt": "Fully opened"
+			},
+			{
+				"format": "image",
+				"image": "5782-clergy-card-4.jpg",
+				"alt": "Back"
+			},
+			{
+				"format": "video",
+				"image": "cs-clergycard.jpg",
+				"video": "cs-clergycard.mp4",
+				"alt": "Full design"
+			},
 			{
 				"format": "image",
 				"image": "cs-clergycard-exterior.jpg",
@@ -1611,6 +3061,55 @@
 			}
 		],
 		"color": "#efb0c6",
+		"invert": false,
+		"active": true
+	},
+	{
+		"key": "5784-clergy-card",
+		"title": "5784 Clergy Card",
+		"subtitle": "for Central Synagogue",
+		"tagline": "Holiday card celebrating the synagogue’s history and legacy.",
+		"desc": "<p>As an annual tradition, <a href='https://www.centralsynagogue.org/' target='_blank'>Central Synagogue’s</a> lead clergy members send all of their congregants a holiday card commemorating another year of worship. To honor their first year of returning to limited in-person services since COVID, I designed a card that highlighted Central’s connection to NYC’s unique community and culture.</p>",
+		"links": [
+			[
+				"See a PDF of the card",
+				"5784-clergy-card.pdf"
+			]
+		],
+		"tags": "publication",
+		"year": 2023,
+		"sort-chrono": "2023-08-14",
+		"sort-custom": 4,
+		"sort-alpha": "5784-clergy-card",
+		"thumbnail": {
+			"format": "video",
+			"image": "5784-clergy-card.jpg",
+			"video": "5784-clergy-card.mp4",
+			"alt": "5784 Clergy Card"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "5784-clergy-card-1.jpg",
+				"alt": "Closed card"
+			},
+			{
+				"format": "image",
+				"image": "5784-clergy-card-2.jpg",
+				"alt": "Partially opened"
+			},
+			{
+				"format": "image",
+				"image": "5784-clergy-card-3.jpg",
+				"alt": "Fully opened"
+			},
+			{
+				"format": "image",
+				"image": "5784-clergy-card-4.jpg",
+				"alt": "Back of card"
+			}
+		],
+		"color": "#f2d26f",
 		"invert": false,
 		"active": true
 	},
@@ -1697,7 +3196,7 @@
 		"desc": "<p>In addition to designing the identity for their <a href='/work/5781-high-holy-days'>virtual High Holy Days services</a>, I began a long-term collaboration with <a href='https://www.centralsynagogue.org/' target='_blank'>Central Synagogue</a> on a variety of print and digital projects. The first of these projects was “Acts of Loving Kindness,” which recognized various funds and their respective donors for the prior year.</p>",
 		"links": [
 			[
-				"See the full publication",
+				"See a PDF of the publication",
 				"acts-of-loving-kindness.pdf"
 			]
 		],
@@ -1708,7 +3207,7 @@
 		"sort-alpha": "acts-of-loving-kindness",
 		"thumbnail": {
 			"format": "image",
-			"image": "cs-alk-magazines.jpg",
+			"image": "cs-alk-print.jpg",
 			"alt": "Acts of Loving Kindness"
 		},
 		"assets": [
@@ -1717,9 +3216,14 @@
 				"image": "cs-alk.jpg",
 				"video": "cs-alk.mp4",
 				"alt": "Full publication"
+			},
+			{
+				"format": "image",
+				"image": "cs-alk-magazines.jpg",
+				"alt": "Miscellaneous spreads"
 			}
 		],
-		"color": "#114e80",
+		"color": "#dbac81",
 		"invert": true,
 		"active": true
 	},
@@ -1828,7 +3332,7 @@
 		"sort-alpha": "2018-21-pretty-much-everything",
 		"thumbnail": {
 			"format": "image",
-			"image": "2018-21-pretty-much-everything.jpg",
+			"image": "2018-21-pretty-much-everything-alt.jpg",
 			"alt": "2018–21 pretty much everything"
 		},
 		"assets": [
@@ -1845,7 +3349,7 @@
 		],
 		"color": "#f61d5d",
 		"invert": true,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "williamstown-theatre-festival-2021-gala",
@@ -1855,7 +3359,7 @@
 		"desc": "<p><a href='https://wtfestival.org/' target='_blank'>Williamstown Theatre Festival’s</a> 2021 gala coincided with the company’s return to live performances, which had been postponed since the start of COVID. For the gala’s identity, I settled on a spotlight motif that would foreshadow and reinforce this pivotal moment in the theater’s history.</p>",
 		"links": [
 			[
-				"See the full invite",
+				"See a PDF of the invite",
 				"wtf2021-gala-invite.pdf"
 			]
 		],
@@ -2278,7 +3782,7 @@
 		"assets": [],
 		"color": "#0ff87b",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "5781-high-holy-days",
@@ -2338,7 +3842,7 @@
 		"desc": "<p>The Yom Kippur Appeal is <a href='https://www.centralsynagogue.org/' target='_blank'>Central Synagogue’s</a> largest annual appeal, raising a majority of the synagogue’s funding for the fiscal year. For the project, I maintained the visual system from my previous work on <a href='/work/acts-of-loving-kindness'>“Acts of Loving Kindness”</a> to create a cohesive print package that would reach the mailboxes of several thousand congregants.</p>",
 		"links": [
 			[
-				"See the full appeal",
+				"See a PDF of the appeal",
 				"5782-yom-kippur-appeal.pdf"
 			]
 		],
@@ -2365,6 +3869,11 @@
 				"image": "cs-yka-booklet.jpg",
 				"video": "cs-yka-booklet.mp4",
 				"alt": "Appeal card"
+			},
+			{
+				"format": "image",
+				"image": "cs-yka.jpg",
+				"alt": "Finished printed package"
 			}
 		],
 		"color": "#2b65a8",
@@ -2379,7 +3888,7 @@
 		"desc": "<p>Creative consulting team <a href='https://www.artists-strategy.com/' target='_blank'>Artist’s Strategy</a> approached me for a complete brand overhaul. To kickoff the project, I researched competitors’ branding and found an opening for a clean-but-approachable visual identity. My concepts explored ideas of implied motion and the them of finding the path forward, conveyed using imagery of arrows and divided geometric forms. In the end, we settled on a dotted path breaking through an abstract “A” symbol.</p>",
 		"links": [
 			[
-				"See the brand guidelines",
+				"See a PDF of the brand guidelines",
 				"artists-strategy.pdf"
 			]
 		],
@@ -2439,7 +3948,7 @@
 		"assets": [],
 		"color": "#faf351",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "personal-branding-2020",
@@ -2732,7 +4241,7 @@
 		"sort-alpha": "heartbreak-county",
 		"thumbnail": {
 			"format": "image",
-			"image": "heartbreak-county.jpg",
+			"image": "heartbreak-county-alt.jpg",
 			"alt": "Heartbreak County"
 		},
 		"assets": [
@@ -2838,7 +4347,7 @@
 		"sort-alpha": "something-happens-for-joe",
 		"thumbnail": {
 			"format": "image",
-			"image": "something-happens-for-joe.jpg",
+			"image": "something-happens-for-joe-alt.jpg",
 			"alt": "Something Happens for Joe"
 		},
 		"assets": [
@@ -2866,7 +4375,7 @@
 		"sort-alpha": "orlando",
 		"thumbnail": {
 			"format": "image",
-			"image": "orlando.jpg",
+			"image": "orlando-alt.jpg",
 			"alt": "Orlando"
 		},
 		"assets": [
@@ -2904,10 +4413,16 @@
 		"sort-alpha": "tempo",
 		"thumbnail": {
 			"format": "image",
-			"image": "tempo.jpg",
+			"image": "tempo-alt.jpg",
 			"alt": "Tempo"
 		},
-		"assets": [],
+		"assets": [
+			{
+				"format": "image",
+				"image": "tempo-full.jpg",
+				"alt": "Full poster"
+			}
+		],
 		"color": "#4894ca",
 		"invert": true,
 		"active": true
@@ -3039,7 +4554,7 @@
 		"sort-alpha": "karaoke-superstar",
 		"thumbnail": {
 			"format": "image",
-			"image": "karaoke-superstar.jpg",
+			"image": "karaoke-superstar-alt.jpg",
 			"alt": "Karaoke Superstar"
 		},
 		"assets": [
@@ -3149,13 +4664,24 @@
 		"sort-alpha": "eurydice",
 		"thumbnail": {
 			"format": "image",
-			"image": "eurydice.jpg",
+			"image": "eurydice-thumbnail.jpg",
 			"alt": "Eurydice"
 		},
-		"assets": [],
+		"assets": [
+			{
+				"format": "image",
+				"image": "eurydice-poster.jpg",
+				"alt": "Show poster"
+			},
+			{
+				"format": "image",
+				"image": "eurydice-full.jpg",
+				"alt": "Album cover"
+			}
+		],
 		"color": "#75faf5",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "wesleyan-monogram",
@@ -3232,10 +4758,76 @@
 				"format": "image",
 				"image": "kerfed-wood-stack2.jpg",
 				"alt": "Closer perspective"
+			},
+			{
+				"format": "image",
+				"image": "kerfed-wood-piece.jpg",
+				"alt": "Single module"
 			}
 		],
 		"color": "#ede54d",
 		"invert": false,
+		"active": true
+	},
+	{
+		"key": "processing-drawing-tool",
+		"title": "Processing Drawing Tool",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [],
+		"tags": "generative, interactive, motion",
+		"year": 2019,
+		"sort-chrono": "2019-03-03",
+		"sort-custom": 5,
+		"sort-alpha": "processing-drawing-tool",
+		"thumbnail": {
+			"format": "video",
+			"image": "drawing-tool.jpg",
+			"video": "drawing-tool.mp4",
+			"alt": "Processing Drawing Tool"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "drawing-tool-normal-interface.jpg",
+				"alt": "Interface"
+			},
+			{
+				"format": "image",
+				"image": "drawing-tool-normal-output1.gif",
+				"alt": "Output examples"
+			},
+			{
+				"format": "image",
+				"image": "drawing-tool-normal-output2.gif",
+				"alt": "Output examples with resized interface"
+			},
+			{
+				"format": "image",
+				"image": "drawing-tool-faces-interface.jpg",
+				"alt": "Alternate version interface"
+			},
+			{
+				"format": "image",
+				"image": "drawing-tool-faces-output.gif",
+				"alt": "Alternate version outputs"
+			},
+			{
+				"format": "video",
+				"image": "drawing-tool-faces.jpg",
+				"video": "drawing-tool-faces.mp4",
+				"alt": "Alternate version using face samples"
+			},
+			{
+				"format": "video",
+				"image": "drawing-tool-test.jpg",
+				"video": "drawing-tool-test.mp4",
+				"alt": "Early technical test"
+			}
+		],
+		"color": "#ea33f6",
+		"invert": true,
 		"active": true
 	},
 	{
@@ -3402,7 +4994,7 @@
 		"sort-alpha": "four-years-later",
 		"thumbnail": {
 			"format": "image",
-			"image": "four-years-later.jpg",
+			"image": "four-years-later-alt.jpg",
 			"alt": "Four Years Later"
 		},
 		"assets": [
@@ -3435,7 +5027,7 @@
 		"sort-alpha": "rhinoceros",
 		"thumbnail": {
 			"format": "image",
-			"image": "rhinoceros.jpg",
+			"image": "rhinoceros-alt.jpg",
 			"alt": "Rhinoceros"
 		},
 		"assets": [
@@ -3463,7 +5055,7 @@
 		"sort-alpha": "attend",
 		"thumbnail": {
 			"format": "image",
-			"image": "attend.jpg",
+			"image": "attend-alt.jpg",
 			"alt": "Attend"
 		},
 		"assets": [
@@ -3496,7 +5088,7 @@
 		"sort-alpha": "99-histories",
 		"thumbnail": {
 			"format": "image",
-			"image": "99-histories.jpg",
+			"image": "99-histories-alt.jpg",
 			"alt": "99 Histories"
 		},
 		"assets": [
@@ -3513,7 +5105,7 @@
 		],
 		"color": "#86d7ba",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "in-sync-and-out",
@@ -3571,7 +5163,7 @@
 		"sort-alpha": "pillowman",
 		"thumbnail": {
 			"format": "image",
-			"image": "pillowman.jpg",
+			"image": "pillowman-alt.jpg",
 			"alt": "The Pillowman"
 		},
 		"assets": [
@@ -3604,13 +5196,19 @@
 		"sort-alpha": "moonbug",
 		"thumbnail": {
 			"format": "image",
-			"image": "moonbug.jpg",
+			"image": "moonbug-alt.jpg",
 			"alt": "Moonbug"
 		},
-		"assets": [],
+		"assets": [
+			{
+				"format": "image",
+				"image": "moonbug-full.jpg",
+				"alt": "Album cover"
+			}
+		],
 		"color": "#f4bbc4",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "falling-in-love-to-voices",
@@ -3631,7 +5229,7 @@
 		"sort-alpha": "falling-in-love-to-voices",
 		"thumbnail": {
 			"format": "image",
-			"image": "falling-in-love-to-voices.jpg",
+			"image": "falling-in-love-to-voices-alt.jpg",
 			"alt": "Falling in Love to Voices"
 		},
 		"assets": [
@@ -3669,7 +5267,7 @@
 		"sort-alpha": "time-passes",
 		"thumbnail": {
 			"format": "image",
-			"image": "time-passes.jpg",
+			"image": "time-passes-alt.jpg",
 			"alt": "Time Passes"
 		},
 		"assets": [
@@ -3710,7 +5308,7 @@
 		"sort-alpha": "dano",
 		"thumbnail": {
 			"format": "image",
-			"image": "dano.jpg",
+			"image": "dano-alt.jpg",
 			"alt": "Dano"
 		},
 		"assets": [
@@ -3727,7 +5325,7 @@
 		],
 		"color": "#eabf4d",
 		"invert": false,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "granola",
@@ -3748,7 +5346,7 @@
 		"sort-alpha": "granola",
 		"thumbnail": {
 			"format": "image",
-			"image": "granola.jpg",
+			"image": "granola-alt.jpg",
 			"alt": "Granola"
 		},
 		"assets": [
@@ -3815,7 +5413,7 @@
 		"sort-alpha": "something-happens",
 		"thumbnail": {
 			"format": "image",
-			"image": "something-happens.jpg",
+			"image": "something-happens-alt.jpg",
 			"alt": "Something Happens"
 		},
 		"assets": [
@@ -3832,7 +5430,7 @@
 		],
 		"color": "#e34f27",
 		"invert": true,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "to-home",
@@ -3850,7 +5448,7 @@
 				"2014-tohome-lyrics.pdf"
 			],
 			[
-				"Download the lyrics font, Boxfish Political",
+				"Download the custom lyrics font, Boxfish Political",
 				"boxfish.otf"
 			]
 		],
@@ -3861,14 +5459,19 @@
 		"sort-alpha": "to-home",
 		"thumbnail": {
 			"format": "image",
-			"image": "to-home.jpg",
+			"image": "to-home-alt.jpg",
 			"alt": "To Home"
 		},
 		"assets": [
 			{
 				"format": "image",
+				"image": "to-home-cover.jpg",
+				"alt": "Album cover (finished painting)"
+			},
+			{
+				"format": "image",
 				"image": "tohome-cover1.jpg",
-				"alt": "Album cover"
+				"alt": "Original album cover"
 			},
 			{
 				"format": "image",
@@ -3938,8 +5541,16 @@
 		"desc": "",
 		"links": [
 			[
-				"Watch the Film",
-				"____"
+				"Watch the film",
+				"https://vimeo.com/924145660"
+			],
+			[
+				"Watch the original cut of the film",
+				"https://vimeo.com/924146217"
+			],
+			[
+				"Watch the unedited footage for the film",
+				"https://vimeo.com/924144959"
 			]
 		],
 		"tags": "video",
@@ -3948,9 +5559,30 @@
 		"sort-custom": 5,
 		"sort-alpha": "low-hung-head",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "video",
+			"image": "lowhung.jpg",
+			"video": "lowhung.mp4",
+			"alt": "A Low-Hung Head"
 		},
 		"assets": [
+			{
+				"format": "embed",
+				"image": "lowhung-thumbnail.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/924145660?title=0&byline=0&portrait=0&color=f61d5d' frameborder='0' allow='fullscreen; picture-in-picture'></iframe>",
+				"alt": "Full film"
+			},
+			{
+				"format": "embed",
+				"image": "lowhung-thumbnail-old.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/924146217?title=0&byline=0&portrait=0&color=f61d5d' frameborder='0' allow='fullscreen; picture-in-picture'></iframe>",
+				"alt": "Original cut"
+			},
+			{
+				"format": "embed",
+				"image": "lowhung-thumbnail-unedited.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/924144959?title=0&byline=0&portrait=0&color=f61d5d' frameborder='0' allow='fullscreen; picture-in-picture'></iframe>",
+				"alt": "Unedited footage"
+			},
 			{
 				"format": "image",
 				"image": "lowhung-concept.jpg",
@@ -3999,6 +5631,6 @@
 		],
 		"color": "#823031",
 		"invert": true,
-		"active": false
+		"active": true
 	}
 ]

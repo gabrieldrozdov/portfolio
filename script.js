@@ -317,7 +317,7 @@ function checkIfEmpty() {
 // ——————————————————————————————————————————————————
 
 sortArchive();
-changeViewAlt(viewModes[Math.floor(Math.random()*viewModes.length)]);
+// changeViewAlt(viewModes[Math.floor(Math.random()*viewModes.length)]);
 setTimeout(() => {
 	const archive = document.querySelector('.archive');
 	archive.dataset.initialized = 1;
