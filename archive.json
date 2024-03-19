@@ -3083,7 +3083,7 @@
 		"sort-alpha": "5784-clergy-card",
 		"thumbnail": {
 			"format": "video",
-			"image": "5784-clergy-card.jpg",
+			"image": "5784-clergy-card-1.jpg",
 			"video": "5784-clergy-card.mp4",
 			"alt": "5784 Clergy Card"
 		},
@@ -4330,7 +4330,7 @@
 			}
 		],
 		"color": "#95b24b",
-		"invert": false,
+		"invert": true,
 		"active": true
 	},
 	{

@@ -268,7 +268,7 @@ function generatePages() {
 				<nav class="nav" data-open="0">
 					<!-- Desktop navbar -->
 					<div class="nav-section">
-						<a href="https://www.gabrieldrozdov.com/" class="nav-link" data-active="1">Gabriel Drozdov</a>
+						<a href="/" class="nav-link" data-active="1">Gabriel Drozdov</a>
 					</div>
 					<div class="nav-section">
 						<a href="/" class="nav-link" data-active="0">Work</a>
@@ -277,7 +277,7 @@ function generatePages() {
 					</div>
 			
 					<!-- Mobile navbar -->
-					<a href="https://gabrieldrozdov.com/" class="nav-link nav-mobile-logo" data-active="1">Gabriel Drozdov</a>
+					<a href="/" class="nav-link nav-mobile-logo" data-active="1">Gabriel Drozdov</a>
 					<button id="nav-toggle" onclick="toggleNav()">
 						<svg class="nav-toggle-open" viewBox="0 0 100 100"><line x1="100" y1="20" y2="20" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="100" y1="50" y2="50" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="100" y1="80" y2="80" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
 						<svg class="nav-toggle-close" viewBox="0 0 100 100"><line x1="2.5" y1="2.5" x2="97.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="97.5" y1="2.5" x2="2.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
@@ -286,7 +286,7 @@ function generatePages() {
 						<a href="/" class="nav-link" data-active="0">Work</a>
 						<a href="/about/" class="nav-link" data-active="0">About</a>
 						<a href="mailto:gabriel@noreplica.com" class="nav-link" data-active="0">Contact</a>
-						<div class="nav-mobile-separator">Other Projects</div>
+						<div class="nav-mobile-separator">Related Projects</div>
 						<a href="https://www.noreplica.com/" target="_blank" class="nav-link" data-active="0">No Replica</a>
 						<a href="https://www.gdwithgd.com/" target="_blank" class="nav-link" data-active="0">GD with GD</a>
 						<a href="https://www.toomuchtype.com/" target="_blank" class="nav-link" data-active="0">Too Much Type</a>
@@ -380,7 +380,7 @@ function generatePages() {
 			<nav class="nav" data-open="0">
 				<!-- Desktop navbar -->
 				<div class="nav-section">
-					<a href="https://www.gabrieldrozdov.com/" class="nav-link" data-active="1">Gabriel Drozdov</a>
+					<a href="/" class="nav-link" data-active="1">Gabriel Drozdov</a>
 				</div>
 				<div class="nav-section">
 					<a href="/" class="nav-link" data-active="1">Work</a>
@@ -389,7 +389,7 @@ function generatePages() {
 				</div>
 
 				<!-- Mobile navbar -->
-				<a href="https://gabrieldrozdov.com/" class="nav-link nav-mobile-logo" data-active="1">Gabriel Drozdov</a>
+				<a href="/" class="nav-link nav-mobile-logo" data-active="1">Gabriel Drozdov</a>
 				<button id="nav-toggle" onclick="toggleNav()">
 					<svg class="nav-toggle-open" viewBox="0 0 100 100"><line x1="100" y1="20" y2="20" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="100" y1="50" y2="50" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="100" y1="80" y2="80" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
 					<svg class="nav-toggle-close" viewBox="0 0 100 100"><line x1="2.5" y1="2.5" x2="97.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="97.5" y1="2.5" x2="2.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
@@ -398,7 +398,7 @@ function generatePages() {
 					<a href="/" class="nav-link" data-active="1">Work</a>
 					<a href="/about/" class="nav-link" data-active="0">About</a>
 					<a href="mailto:gabriel@noreplica.com" class="nav-link" data-active="0">Contact</a>
-					<div class="nav-mobile-separator">Other Projects</div>
+					<div class="nav-mobile-separator">Related Projects</div>
 					<a href="https://www.noreplica.com/" target="_blank" class="nav-link" data-active="0">No Replica</a>
 					<a href="https://www.gdwithgd.com/" target="_blank" class="nav-link" data-active="0">GD with GD</a>
 					<a href="https://www.toomuchtype.com/" target="_blank" class="nav-link" data-active="0">Too Much Type</a>
@@ -408,37 +408,24 @@ function generatePages() {
 
 			<header class="header">
 				<h1 class="header-desc">
-					<strong>I’m Gabriel, a designer and educator.</strong> I play with code, typography, and sound to create interactive digital experiences at the intersections of technology and performance.
+					<strong>Hi! I’m Gabriel.</strong><br>I’m a designer, coder, and teacher.
 				</h1>
 				<div class="header-links">
-					<h2 class="header-links-title">
-						<img src="/assets/ui/smile.svg">
-						<span>These are my organizations!</span>
-						<img src="/assets/ui/smile.svg">
-					</h2>
 					<a href='https://noreplica.com/' target='_blank'>
-						<div class="header-link-content">
-							<img src="/assets/ui/logo-noreplica.svg" alt="No Replica">
-							<h2><strong>My design studio</strong>, specializing in playful web design and development.</h2>
-						</div>
+						<img src="/assets/ui/logo-noreplica.svg" alt="No Replica">
+						<h2>Studio</h2>
 					</a>
 					<a href='https://gdwithgd.com/' target='_blank'>
-						<div class="header-link-content">
-							<img src="/assets/ui/logo-gdwithgd.svg" alt="GD with GD">
-							<h2><strong>My teaching practice</strong>, creating resources for design and technology education.</h2>
-						</div>
+						<img src="/assets/ui/logo-gdwithgd.svg" alt="GD with GD">
+						<h2>Teaching</h2>
 					</a>
 					<a href='https://toomuchtype.com/' target='_blank'>
-						<div class="header-link-content">
-							<img src="/assets/ui/logo-toomuchtype.svg" alt="Too Much Type">
-							<h2><strong>My type foundry</strong>, experimenting with variable fonts and digital type specimens.</h2>
-						</div>
+						<img src="/assets/ui/logo-toomuchtype.svg" alt="Too Much Type">
+						<h2>Fonts</h2>
 					</a>
 					<a href='https://barcoloudly.com/' target='_blank'>
-						<div class="header-link-content">
-							<img src="/assets/ui/logo-barcoloudly.svg" alt="Barco Loudly">
-							<h2><strong>My music project</strong>, producing musical websites and original songs.</h2>
-						</div>
+						<img src="/assets/ui/logo-barcoloudly.svg" alt="Barco Loudly">
+						<h2>Music</h2>
 					</a>
 				</div>
 			</header>
@@ -624,7 +611,7 @@ function generatePages() {
 			<nav class="nav" data-open="0">
 				<!-- Desktop navbar -->
 				<div class="nav-section">
-					<a href="https://www.gabrieldrozdov.com/" class="nav-link" data-active="1">Gabriel Drozdov</a>
+					<a href="/" class="nav-link" data-active="1">Gabriel Drozdov</a>
 				</div>
 				<div class="nav-section">
 					<a href="/" class="nav-link" data-active="0">Work</a>
@@ -633,7 +620,7 @@ function generatePages() {
 				</div>
 
 				<!-- Mobile navbar -->
-				<a href="https://gabrieldrozdov.com/" class="nav-link nav-mobile-logo" data-active="1">Gabriel Drozdov</a>
+				<a href="/" class="nav-link nav-mobile-logo" data-active="1">Gabriel Drozdov</a>
 				<button id="nav-toggle" onclick="toggleNav()">
 					<svg class="nav-toggle-open" viewBox="0 0 100 100"><line x1="100" y1="20" y2="20" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="100" y1="50" y2="50" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="100" y1="80" y2="80" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
 					<svg class="nav-toggle-close" viewBox="0 0 100 100"><line x1="2.5" y1="2.5" x2="97.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="97.5" y1="2.5" x2="2.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
@@ -642,7 +629,7 @@ function generatePages() {
 					<a href="/" class="nav-link" data-active="0">Work</a>
 					<a href="/about/" class="nav-link" data-active="1">About</a>
 					<a href="mailto:gabriel@noreplica.com" class="nav-link" data-active="0">Contact</a>
-					<div class="nav-mobile-separator">Other Projects</div>
+					<div class="nav-mobile-separator">Related Projects</div>
 					<a href="https://www.noreplica.com/" target="_blank" class="nav-link" data-active="0">No Replica</a>
 					<a href="https://www.gdwithgd.com/" target="_blank" class="nav-link" data-active="0">GD with GD</a>
 					<a href="https://www.toomuchtype.com/" target="_blank" class="nav-link" data-active="0">Too Much Type</a>
