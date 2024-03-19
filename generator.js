@@ -587,6 +587,13 @@ function generatePages() {
 		}
 	});
 
+	// 404 copy of homepage
+	fs.writeFile(`404.html`, homepageContent, err => {
+		if (err) {
+			console.error(err);
+		}
+	});
+
 	// About page
 	let aboutContent = `
 		<!DOCTYPE html>
