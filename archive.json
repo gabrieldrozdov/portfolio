@@ -1023,10 +1023,16 @@
 				"format": "image",
 				"image": "galapagos-islands-overview.jpg",
 				"alt": "Brand overview"
+			},
+			{
+				"format": "video",
+				"image": "galapagos-font.jpg",
+				"video": "galapagos-font.mp4",
+				"alt": "Customized version of the font Work Sans with “shelled” negative spaces"
 			}
 		],
 		"color": "#64D983",
-		"invert": true,
+		"invert": false,
 		"active": true
 	},
 	{
@@ -3145,6 +3151,16 @@
 			},
 			{
 				"format": "image",
+				"image": "cs-neighborhood-logo.png",
+				"alt": "Logo"
+			},
+			{
+				"format": "image",
+				"image": "cs-neighborhood-icon.png",
+				"alt": "Icon"
+			},
+			{
+				"format": "image",
 				"image": "cs-neighborhood-concepts.jpg",
 				"alt": "Design drafts"
 			}
@@ -3182,6 +3198,21 @@
 				"image": "cs-sharingourstories-website.jpg",
 				"video": "cs-sharingourstories-website.mp4",
 				"alt": "Website"
+			},
+			{
+				"format": "image",
+				"image": "cs-sharingourstories.jpg",
+				"alt": "Logo"
+			},
+			{
+				"format": "image",
+				"image": "cs-sharingourstories-icon.jpg",
+				"alt": "Icon"
+			},
+			{
+				"format": "image",
+				"image": "cs-sharingourstories-pattern.jpg",
+				"alt": "Pattern"
 			}
 		],
 		"color": "#febd19",
@@ -3957,21 +3988,154 @@
 		"tagline": "",
 		"desc": "",
 		"links": [],
-		"tags": "motion, logo",
+		"tags": "motion, logo, web, branding",
 		"year": 2020,
 		"sort-chrono": "2020-07-08",
 		"sort-custom": 4,
 		"sort-alpha": "personal-branding-2020",
 		"thumbnail": {
 			"format": "video",
-			"image": "branding-monogram.jpg",
-			"video": "branding-monogram.mp4",
-			"alt": "Personal branding"
+			"image": "portfolio2020-monogram.jpg",
+			"video": "portfolio2020-monogram.mp4",
+			"alt": "Personal Branding (2020)"
 		},
-		"assets": [],
+		"assets": [
+			{
+				"format": "video",
+				"image": "portfolio2020-box-talk.jpg",
+				"video": "portfolio2020-box-talk.mp4",
+				"alt": "Monogram explorations"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-playthings.jpg",
+				"video": "portfolio2020-playthings.mp4",
+				"alt": "Monogram explorations"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-logo-draft.png",
+				"video": "portfolio2020-logo-draft.mp4",
+				"alt": "Alternate logo concept"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website1-home.jpg",
+				"video": "portfolio2020-website1-home.mp4",
+				"alt": "Website version 1, homepage"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website2-home.jpg",
+				"video": "portfolio2020-website2-home.mp4",
+				"alt": "Website version 2, homepage"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website2-bio.jpg",
+				"video": "portfolio2020-website2-bio.mp4",
+				"alt": "Website version 2, “Bio” page"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website2-work.jpg",
+				"video": "portfolio2020-website2-work.mp4",
+				"alt": "Website version 2, “Work” page"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website2-services.jpg",
+				"video": "portfolio2020-website2-services.mp4",
+				"alt": "Website version 2, “Services” page"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website3-home.jpg",
+				"video": "portfolio2020-website3-home.mp4",
+				"alt": "Website version 3, homepage"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website3-bio.jpg",
+				"video": "portfolio2020-website3-bio.mp4",
+				"alt": "Website version 3, “Bio” page"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website3-work.jpg",
+				"video": "portfolio2020-website3-work.mp4",
+				"alt": "Website version 3, “Work” page"
+			},
+			{
+				"format": "video",
+				"image": "portfolio2020-website3-services.jpg",
+				"video": "portfolio2020-website3-services.mp4",
+				"alt": "Website version 3, “Services” page"
+			}
+		],
 		"color": "#f3b940",
 		"invert": false,
-		"active": false
+		"active": true
+	},
+	{
+		"key": "personal-branding-2018",
+		"title": "Personal Branding (2018)",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [],
+		"tags": "motion, web, branding",
+		"year": 2018,
+		"sort-chrono": "2018-11-22",
+		"sort-custom": 4,
+		"sort-alpha": "personal-branding-2018",
+		"thumbnail": {
+			"format": "video",
+			"image": "portfolio18-speaker.jpg",
+			"video": "portfolio18-speaker.mp4",
+			"alt": "Personal branding (2018)"
+		},
+		"assets": [
+			{
+				"format": "video",
+				"image": "portfolio18-header.jpg",
+				"video": "portfolio18-header.mp4",
+				"alt": "Homepage header animation"
+			},
+			{
+				"format": "image",
+				"image": "portfolio18-homepage.jpg",
+				"alt": "Homepage header"
+			},
+			{
+				"format": "image",
+				"image": "portfolio18-music.jpg",
+				"alt": "Music portfolio"
+			},
+			{
+				"format": "image",
+				"image": "portfolio18-theater.jpg",
+				"alt": "Theater portfolio"
+			},
+			{
+				"format": "image",
+				"image": "portfolio18-landingpages.jpg",
+				"alt": "Portfolio landing pages"
+			},
+			{
+				"format": "image",
+				"image": "portfolio18-imgwhite.jpg",
+				"alt": "Vector illustrations"
+			},
+			{
+				"format": "image",
+				"image": "portfolio18-imgblack.jpg",
+				"alt": "Vector illustrations"
+			}
+		],
+		"color": "#f61d5d",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "motion-experiments-2020",
@@ -3994,14 +4158,26 @@
 		"assets": [
 			{
 				"format": "video",
+				"image": "something-new.png",
+				"video": "something-new.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
 				"image": "strike.jpg",
 				"video": "strike.mp4",
 				"alt": ""
 			},
 			{
 				"format": "video",
-				"image": "watermelon.jpg",
-				"video": "watermelon.mp4",
+				"image": "awake.jpg",
+				"video": "awake.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "invisible-ink.png",
+				"video": "invisible-ink.mp4",
 				"alt": ""
 			},
 			{
@@ -4012,20 +4188,20 @@
 			},
 			{
 				"format": "video",
-				"image": "rollout.jpg",
-				"video": "rollout.mp4",
+				"image": "devices.jpg",
+				"video": "devices.mp4",
 				"alt": ""
 			},
 			{
 				"format": "video",
-				"image": "grumble.jpg",
-				"video": "grumble.mp4",
+				"image": "oh.png",
+				"video": "oh.mp4",
 				"alt": ""
 			},
 			{
 				"format": "video",
-				"image": "up-and-up.jpg",
-				"video": "up-and-up.mp4",
+				"image": "watermelon.jpg",
+				"video": "watermelon.mp4",
 				"alt": ""
 			},
 			{
@@ -4036,8 +4212,62 @@
 			},
 			{
 				"format": "video",
-				"image": "awake.jpg",
-				"video": "awake.mp4",
+				"image": "grumble.jpg",
+				"video": "grumble.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "some-circles-2.png",
+				"video": "some-circles-2.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "oh-wow.jpg",
+				"video": "oh-wow.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "over-here-over-there.png",
+				"video": "over-here-over-there.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "hi.png",
+				"video": "hi.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "pluck.png",
+				"video": "pluck.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "some-circles-1.png",
+				"video": "some-circles-1.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "upupup.jpg",
+				"video": "upupup.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "stilts.jpg",
+				"video": "stilts.mp4",
+				"alt": ""
+			},
+			{
+				"format": "video",
+				"image": "incoming.jpg",
+				"video": "incoming.mp4",
 				"alt": ""
 			}
 		],
@@ -4068,6 +4298,18 @@
 				"format": "image",
 				"image": "jam-a-palooza-poster.jpg",
 				"alt": "Line-up poster"
+			},
+			{
+				"format": "video",
+				"image": "jam-a-palooza-alt.png",
+				"video": "jam-a-palooza-alt.mp4",
+				"alt": "Alternate motion logo"
+			},
+			{
+				"format": "video",
+				"image": "jam-a-palooza-rollout.jpg",
+				"video": "jam-a-palooza-rollout.mp4",
+				"alt": "Motion design"
 			}
 		],
 		"color": "#e03196",
@@ -4143,6 +4385,339 @@
 		"active": true
 	},
 	{
+		"key": "williamstown-theatre-festival-2019",
+		"title": "2019 Season Production Design",
+		"subtitle": "for Williamstown Theatre Festival",
+		"tagline": "",
+		"desc": "<p>Season key art and title treatments designed by Marathon Digital.</p>",
+		"links": [],
+		"tags": "branding, motion, poster, publication, music, video",
+		"year": 2019,
+		"sort-chrono": "2019-08-17",
+		"sort-custom": 4,
+		"sort-alpha": "2019-season-production-design",
+		"thumbnail": {
+			"format": "image",
+			"image": "wtf19-marquee.jpg",
+			"alt": "Williamstown Theatre Festival 2019 Season Production Design"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "wtf19-showposter.jpg",
+				"alt": "“Tell Me I’m Not Crazy” show poster"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-mainstagecovers.gif",
+				"alt": "Main Stage program covers"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-nikoscovers.gif",
+				"alt": "Nikos Stage program covers"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-titlepages.gif",
+				"alt": "Print program title pages"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-program.gif",
+				"alt": "Print program spreads"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-newsletters.gif",
+				"alt": "Newsletters"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-busad.jpg",
+				"alt": "“Ghosts” bus ad"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-bannerads-ghosts.jpg",
+				"alt": "“Ghosts” banner ad"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-bannerads-meeting.jpg",
+				"alt": "“Before the Meeting” banner ads"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-printad.jpg",
+				"alt": "“A Raisin in the Sun” print ad"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-postcard.jpg",
+				"alt": "“A Raisin in the Sun” postcard"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-nyc-poster.jpg",
+				"alt": "WTF in NYC campaign poster"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-nyc-card.jpg",
+				"alt": "WTF in NYC campaign card"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-nyc-newsletter.jpg",
+				"alt": "WTF in NYC campaign newsletter"
+			},
+			{
+				"format": "image",
+				"image": "wtf19-nyc-subway.jpg",
+				"alt": "WTF in NYC campaign ad"
+			},
+			{
+				"format": "embed",
+				"image": "wtf19-cw.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/380078935?title=0&byline=0&portrait=0&color=f61d5d' frameborder='0' allow='fullscreen; picture-in-picture'></iframe>",
+				"alt": "“Community Works” motion graphic"
+			},
+			{
+				"format": "embed",
+				"image": "wtf19-sizzlereel.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/380078039?title=0&byline=0&portrait=0&color=f61d5d' frameborder='0' allow='fullscreen; picture-in-picture'></iframe>",
+				"alt": "Summer recap sizzle reel"
+			}
+		],
+		"color": "#157CBC",
+		"invert": true,
+		"active": true
+	},
+	{
+		"key": "value-of-membership",
+		"title": "The Value of Membership",
+		"subtitle": "for Dramatists Guild",
+		"tagline": "",
+		"desc": "",
+		"links": [
+			[
+				"Watch the video overview",
+				"https://vimeo.com/379099748"
+			]
+		],
+		"tags": "branding, music, motion, video, web",
+		"year": 2018,
+		"sort-chrono": "2018-08-22",
+		"sort-custom": 4,
+		"sort-alpha": "value-of-membership",
+		"thumbnail": {
+			"format": "video",
+			"image": "dg-motion-bumper.jpg",
+			"video": "dg-motion-bumper.mp4",
+			"alt": "The Value of Membership"
+		},
+		"assets": [
+			{
+				"format": "embed",
+				"image": "dg-video.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/379099748?title=0&byline=0&portrait=0&color=f61d5d' frameborder='0' allow='fullscreen; picture-in-picture'></iframe>",
+				"alt": "Promotional video"
+			},
+			{
+				"format": "image",
+				"image": "dg-video-advocate.jpg",
+				"alt": "Video still"
+			},
+			{
+				"format": "image",
+				"image": "dg-video-career.jpg",
+				"alt": "Video still"
+			},
+			{
+				"format": "image",
+				"image": "dg-video-dramatist.jpg",
+				"alt": "Video still"
+			},
+			{
+				"format": "image",
+				"image": "dg-video-benefits.jpg",
+				"alt": "Video still"
+			},
+			{
+				"format": "image",
+				"image": "dg-website-homepage.jpg",
+				"alt": "Membership website homepage"
+			},
+			{
+				"format": "image",
+				"image": "dg-website-associate.jpg",
+				"alt": "Membership website levels"
+			},
+			{
+				"format": "image",
+				"image": "dg-website-affiliates.jpg",
+				"alt": "Membership website affiliates"
+			},
+			{
+				"format": "image",
+				"image": "dg-website-services.jpg",
+				"alt": "Membership website services"
+			},
+			{
+				"format": "image",
+				"image": "dg-website-subscribers.jpg",
+				"alt": "Membership website subscribers"
+			},
+			{
+				"format": "image",
+				"image": "dg-assets.png",
+				"alt": "Graphic assets"
+			},
+			{
+				"format": "image",
+				"image": "dg-research.png",
+				"alt": "Visual identity development"
+			}
+		],
+		"color": "#d2232a",
+		"invert": true,
+		"active": true
+	},
+	{
+		"key": "second-stage",
+		"title": "Second Stage Student Theater Company",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [],
+		"tags": "branding, poster, logo",
+		"year": 2017,
+		"sort-chrono": "2017-03-02",
+		"sort-custom": 4,
+		"sort-alpha": "second-stage",
+		"thumbnail": {
+			"format": "image",
+			"image": "2ndstage-logo.png",
+			"alt": "Second Stage Student Theater Company"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "2ndstage-website-homepage.jpg",
+				"alt": "Website homepage"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-website-archive.jpg",
+				"alt": "Website show archive"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-policy.jpg",
+				"alt": "Policy posters"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-seasonposters.jpg",
+				"alt": "Season posters"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-asyoulikeit.jpg",
+				"alt": "“As You Like It” poster"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-bfe.jpg",
+				"alt": "“BFE” poster"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-constancesinestra.jpg",
+				"alt": "“Constance & Sinestra” poster"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-snakeoil.jpg",
+				"alt": "“Snake Oil” poster"
+			},
+			{
+				"format": "image",
+				"image": "2ndstage-nexttonormal.jpg",
+				"alt": "“Next to Normal” poster"
+			}
+		],
+		"color": "#d002e8",
+		"invert": true,
+		"active": true
+	},
+	{
+		"key": "new-dg-resource-directory",
+		"title": "The New DG Resource Directory",
+		"subtitle": "for Dramatists Guild",
+		"tagline": "",
+		"desc": "",
+		"links": [
+			[
+				"Watch the video overview",
+				"https://vimeo.com/925271137"
+			]
+		],
+		"tags": "music, motion, video",
+		"year": 2021,
+		"sort-chrono": "2021-02-18",
+		"sort-custom": 4,
+		"sort-alpha": "new-dg-resource-directory",
+		"thumbnail": {
+			"format": "video",
+			"image": "dg-motion-welcome.jpg",
+			"video": "dg-motion-welcome.mp4",
+			"alt": "The Value of Membership"
+		},
+		"assets": [
+			{
+				"format": "embed",
+				"image": "dg-thumbnail.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/925271137?title=0&byline=0&portrait=0&color=f61d5d' frameborder='0' allow='fullscreen; picture-in-picture'></iframe>",
+				"alt": "Promotional video"
+			},
+			{
+				"format": "video",
+				"image": "dg-motion-website.jpg",
+				"video": "dg-motion-website.mp4",
+				"alt": "Video clip"
+			},
+			{
+				"format": "video",
+				"image": "dg-motion-loading.jpg",
+				"video": "dg-motion-loading.mp4",
+				"alt": "Video clip"
+			},
+			{
+				"format": "video",
+				"image": "dg-motion-starburst.jpg",
+				"video": "dg-motion-starburst.mp4",
+				"alt": "Video clip"
+			},
+			{
+				"format": "video",
+				"image": "dg-motion-discover.jpg",
+				"video": "dg-motion-discover.mp4",
+				"alt": "Video clip"
+			},
+			{
+				"format": "video",
+				"image": "dg-motion-sword.jpg",
+				"video": "dg-motion-sword.mp4",
+				"alt": "Video clip"
+			}
+		],
+		"color": "#d2232a",
+		"invert": true,
+		"active": true
+	},
+	{
 		"key": "keep-it-in-play",
 		"title": "#KeepItInPlay",
 		"subtitle": "",
@@ -4170,7 +4745,7 @@
 		"title": "Maddie Munchies",
 		"subtitle": "",
 		"tagline": "Identity for a vegan foodie.",
-		"desc": "<p>Maddie Munchies was an Instagram account that published vegan, health-conscious recipes. I designed a motion logo that features the icon and logotype used across their social media profiles and marketing.</p>",
+		"desc": "<p>Maddie Munchies was an Instagram account that published vegan, health-conscious recipes. I designed a motion logo that features the icon and logotype used across their social media profiles and marketing. The design process generated several other drafts that iterated on the same visual concept.</p>",
 		"links": [],
 		"tags": "motion, logo",
 		"year": 2020,
@@ -4179,11 +4754,49 @@
 		"sort-alpha": "maddie-munchies",
 		"thumbnail": {
 			"format": "video",
-			"image": "maddie-munchies.jpg",
+			"image": "maddie-munchies.png",
 			"video": "maddie-munchies.mp4",
 			"alt": "Maddie Munchies"
 		},
-		"assets": [],
+		"assets": [
+			{
+				"format": "video",
+				"image": "maddie-munchies-alt-logo.png",
+				"video": "maddie-munchies-alt-logo.mp4",
+				"alt": "Draft motion logo"
+			},
+			{
+				"format": "image",
+				"image": "maddie-munchies-alt-monogram.png",
+				"alt": "Draft monogram"
+			},
+			{
+				"format": "image",
+				"image": "maddie-munchies-alt-icons.png",
+				"alt": "Draft icons"
+			},
+			{
+				"format": "image",
+				"image": "maddie-munchies-alt-bw.png",
+				"alt": "Draft logo (black-and-white)"
+			},
+			{
+				"format": "image",
+				"image": "maddie-munchies-alt-tldc.png",
+				"alt": "Related project, “Too Long; Didn’t Cook”"
+			},
+			{
+				"format": "image",
+				"image": "maddie-munchies-alt-branding.png",
+				"alt": "Draft brand system"
+			},
+			{
+				"format": "video",
+				"image": "mnchies.png",
+				"video": "mnchies.mp4",
+				"alt": "Early draft name and logo"
+			}
+		],
 		"color": "#3f8a5b",
 		"invert": true,
 		"active": true
@@ -4207,6 +4820,11 @@
 			"alt": "Williamstown Theatre Festival 2020 Gala"
 		},
 		"assets": [
+			{
+				"format": "image",
+				"image": "wtf2020-galainvite-savethedate.jpg",
+				"alt": "Save the date graphic"
+			},
 			{
 				"format": "image",
 				"image": "wtf2020-galainvite.gif",

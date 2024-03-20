@@ -81,23 +81,14 @@ function generatePages() {
 			thumbnail = `<img src="/assets/ui/placeholder.svg" class="archive-item-thumbnail">`;
 		}
 
-		// let thumbnail = "";
-		// if (entry['thumbnail'][0] == 'video') {
-		// 	thumbnail = `
-		// 		<video autoplay muted loop playsinline disableRemotePlayback poster="${folder}/${entry['thumbnail'][1]}" class="lazy archive-item-thumbnail">
-		// 			<source data-src="${folder}/${entry['thumbnail'][2]}">
-		// 		</video>
-		// 	`;
-		// } else if (entry['thumbnail'][0] == 'image') {
-		// 	thumbnail = `<img src="${folder}/${entry['thumbnail'][1]}" class="archive-item-thumbnail">`;
-		// } else {
-		// 	thumbnail = `<img src="/assets/ui/placeholder.svg" class="archive-item-thumbnail">`;
-		// }
-
 		// Tags
 		let tags = entry['tags'].split(',');
-		let tagsString = '';
+		let trimmedTags = [];
 		for (let tag of tags) {
+			trimmedTags.push(tag.trim());
+		}
+		let tagsString = '';
+		for (let tag of trimmedTags.sort()) {
 			tag = tag.trim();
 			tagsString += `<li>${tag}</li>`;
 		}
