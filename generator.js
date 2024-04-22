@@ -284,39 +284,43 @@ function generatePages() {
 						<a href="https://www.barcoloudly.com/" target="_blank" class="nav-link" data-active="0">Barco Loudly</a>
 					</div>
 				</nav>
+
+				<div class="subpage-container">
 			
-				<header class="subpage-header">
-					<div class="subpage-heading">
-						<ul class="subpage-meta">
-							<li id="subpage-year" style="--highlight: ${entry['color']}" data-invert="${entry['invert']}">${entry['year']}</li>
-							${tagsString}
-						</ul>
-						<h1 class="subpage-title">${entry['title']}</h1>
-						<h2 class="subpage-subtitle">${entry['subtitle']}</h2>
-					</div>
-					<div class="subpage-header-grid">
-						<div class="subpage-thumbnail" onclick="openSubpageLightbox(-1)">
-							${thumbnail}
+					<header class="subpage-header">
+						<div class="subpage-heading">
+							<ul class="subpage-meta">
+								<li id="subpage-year" style="--highlight: ${entry['color']}" data-invert="${entry['invert']}">${entry['year']}</li>
+								${tagsString}
+							</ul>
+							<h1 class="subpage-title">${entry['title']}</h1>
+							<h2 class="subpage-subtitle">${entry['subtitle']}</h2>
 						</div>
-						<div class="subpage-desc">
-							${entry['desc']}
-							${subpageLinks}
+						<div class="subpage-header-grid">
+							<div class="subpage-thumbnail" onclick="openSubpageLightbox(-1)">
+								${thumbnail}
+							</div>
+							<div class="subpage-desc">
+								${entry['desc']}
+								${subpageLinks}
+							</div>
 						</div>
+					</header>
+
+					<div class="subpage-archive-lightbox" data-active="0">
+						<svg onclick="prevSubpageLightboxItem();" class="subpage-archive-lightbox-nav subpage-archive-lightbox-left" viewBox="0 0 100 100"><polyline points="73.75 97.5 26.25 50 73.75 2.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
+						<svg onclick="nextSubpageLightboxItem();" class="subpage-archive-lightbox-nav subpage-archive-lightbox-right" viewBox="0 0 100 100"><polyline points="26.25 2.5 73.75 50 26.25 97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
+						<svg class="subpage-archive-lightbox-close" onclick="closeSubpageLightbox();" viewBox="0 0 100 100"><line x1="2.5" y1="2.5" x2="97.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="97.5" y1="2.5" x2="2.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
+						<div class="subpage-archive-lightbox-content"></div>
+						<div class="subpage-archive-lightbox-caption"></div>
 					</div>
-				</header>
 
-				<div class="subpage-archive-lightbox" data-active="0">
-					<svg onclick="prevSubpageLightboxItem();" class="subpage-archive-lightbox-nav subpage-archive-lightbox-left" viewBox="0 0 100 100"><polyline points="73.75 97.5 26.25 50 73.75 2.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
-					<svg onclick="nextSubpageLightboxItem();" class="subpage-archive-lightbox-nav subpage-archive-lightbox-right" viewBox="0 0 100 100"><polyline points="26.25 2.5 73.75 50 26.25 97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
-					<svg class="subpage-archive-lightbox-close" onclick="closeSubpageLightbox();" viewBox="0 0 100 100"><line x1="2.5" y1="2.5" x2="97.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/><line x1="97.5" y1="2.5" x2="2.5" y2="97.5" fill="none" stroke-miterlimit="10" stroke-width="6"/></svg>
-					<div class="subpage-archive-lightbox-content"></div>
-					<div class="subpage-archive-lightbox-caption"></div>
-				</div>
+					${subpageArchive}
 
-				${subpageArchive}
+					<div class="subpage-prevnext">
+						${prevNext}
+					</div>
 
-				<div class="subpage-prevnext">
-					${prevNext}
 				</div>
 
 				<footer class="footer">

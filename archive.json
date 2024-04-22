@@ -2003,6 +2003,10 @@
 			[
 				"See a PDF of the brand style guide",
 				"that-then-this.pdf"
+			],
+			[
+				"Get the typeface at Too Much Type",
+				"https://toomuchtype.com/"
 			]
 		],
 		"tags": "branding, motion, typeface",
@@ -2016,6 +2020,12 @@
 			"alt": "That Then This"
 		},
 		"assets": [
+			{
+				"format": "video",
+				"image": "thatthenthis-font.jpg",
+				"video": "thatthenthis-font.mp4",
+				"alt": "Variable typeface"
+			},
 			{
 				"format": "image",
 				"image": "thatthenthis-logo.png",
@@ -2737,7 +2747,7 @@
 			}
 		],
 		"color": "#b0b0b0",
-		"invert": true,
+		"invert": false,
 		"active": true
 	},
 	{
@@ -2898,12 +2908,6 @@
 		},
 		"assets": [
 			{
-				"format": "embed",
-				"image": "schuitema-duarte-printed.jpg",
-				"html": "<iframe src='https://player.vimeo.com/video/920301504' frameborder='0' allow='fullscreen;'></iframe>",
-				"alt": "Printed copy"
-			},
-			{
 				"format": "image",
 				"image": "schuitema-duarte-side1.jpg",
 				"alt": "Side 1: Paul Schuitema"
@@ -2915,13 +2919,19 @@
 			},
 			{
 				"format": "image",
-				"image": "schuitema-duarte-full.jpg",
-				"alt": "Book laid out in full"
+				"image": "schuitema-duarte-font.jpg",
+				"alt": "Digital revival of an alphabet designed by Schuitema"
+			},
+			{
+				"format": "embed",
+				"image": "schuitema-duarte-printed.jpg",
+				"html": "<iframe src='https://player.vimeo.com/video/920301504' frameborder='0' allow='fullscreen;'></iframe>",
+				"alt": "Printed copy"
 			},
 			{
 				"format": "image",
-				"image": "schuitema-duarte-font.jpg",
-				"alt": "Digital revival of an alphabet designed by Schuitema"
+				"image": "schuitema-duarte-full.jpg",
+				"alt": "Book laid out in full"
 			}
 		],
 		"color": "#cb221b",
@@ -4594,7 +4604,7 @@
 		"tags": "branding, poster, logo",
 		"year": 2017,
 		"sort-chrono": "2017-03-02",
-		"sort-custom": 4,
+		"sort-custom": 5,
 		"sort-alpha": "second-stage",
 		"thumbnail": {
 			"format": "image",
@@ -4650,7 +4660,7 @@
 		],
 		"color": "#d002e8",
 		"invert": true,
-		"active": true
+		"active": false
 	},
 	{
 		"key": "new-dg-resource-directory",
@@ -6248,6 +6258,132 @@
 			}
 		],
 		"color": "#823031",
+		"invert": true,
+		"active": true
+	},
+	{
+		"key": "powerpack",
+		"title": "PowerPack",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [
+			[
+				"See a PDF of the type specimen",
+				"powerpack-specimen.pdf"
+			],
+			[
+				"Get the typeface at Too Much Type",
+				"https://toomuchtype.com/"
+			]
+		],
+		"tags": "typeface",
+		"year": 2022,
+		"sort-chrono": "2022-03-19",
+		"sort-custom": 3,
+		"sort-alpha": "powerpack",
+		"thumbnail": {
+			"format": "image",
+			"image": "powerpack.png",
+			"alt": "PowerPack"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "powerpack-slide2.png",
+				"alt": "Letterset"
+			},
+			{
+				"format": "image",
+				"image": "powerpack-slide3.jpg",
+				"alt": "Inspiration"
+			},
+			{
+				"format": "image",
+				"image": "powerpack-slide4.png",
+				"alt": "Typesetting"
+			},
+			{
+				"format": "image",
+				"image": "powerpack-slide5.png",
+				"alt": "Arithmetic"
+			},
+			{
+				"format": "image",
+				"image": "powerpack-slide6.png",
+				"alt": "Punctuation"
+			},
+			{
+				"format": "image",
+				"image": "powerpack-slide7.png",
+				"alt": "Optical sizing"
+			},
+			{
+				"format": "image",
+				"image": "powerpack-slide8.png",
+				"alt": "Monogram"
+			},
+			{
+				"format": "video",
+				"image": "powerpack-variable.jpg",
+				"video": "powerpack-variable.mp4",
+				"alt": "Variable font axes"
+			}
+		],
+		"color": "#fba919",
+		"invert": true,
+		"active": true
+	},
+	{
+		"key": "zig-not-zag",
+		"title": "Zig Not Zag",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [],
+		"tags": "physical, poster",
+		"year": 2023,
+		"sort-chrono": "2023-09-21",
+		"sort-custom": 3,
+		"sort-alpha": "zig-not-zag",
+		"thumbnail": {
+			"format": "image",
+			"image": "zig-1.jpg",
+			"alt": "Zig Not Zag"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "zig-2.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "zig-3.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "zig-4.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "zig-5.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "zig-6.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "zig-7.jpg",
+				"alt": ""
+			}
+		],
+		"color": "#818181",
 		"invert": true,
 		"active": true
 	}
