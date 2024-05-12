@@ -306,18 +306,56 @@
 		"tagline": "",
 		"desc": "",
 		"links": [],
-		"tags": "physical",
+		"tags": "physical, publication",
 		"year": 2023,
 		"sort-chrono": "2023-02-23",
 		"sort-custom": 3,
 		"sort-alpha": "emerging-landscapes",
 		"thumbnail": {
-			"format": "placeholder"
+			"format": "image",
+			"image": "emerginglandscapes-flower1.jpg",
+			"alt": "Emerging Landscapes"
 		},
-		"assets": [],
-		"color": "gray",
-		"invert": false,
-		"active": false
+		"assets": [
+			{
+				"format": "image",
+				"image": "emerginglandscapes-flower2.jpg",
+				"alt": "Full publication"
+			},
+			{
+				"format": "image",
+				"image": "emerginglandscapes-flower3.jpg",
+				"alt": "Full publication"
+			},
+			{
+				"format": "image",
+				"image": "emerginglandscapes-closeup1.jpg",
+				"alt": "Detail"
+			},
+			{
+				"format": "image",
+				"image": "emerginglandscapes-closeup2.jpg",
+				"alt": "Detail"
+			},
+			{
+				"format": "image",
+				"image": "emerginglandscapes-closeup3.jpg",
+				"alt": "Detail"
+			},
+			{
+				"format": "image",
+				"image": "emerginglandscapes-closeup4.jpg",
+				"alt": "Detail"
+			},
+			{
+				"format": "image",
+				"image": "emerginglandscapes-closeup5.jpg",
+				"alt": "Detail"
+			}
+		],
+		"color": "#96b54e",
+		"invert": true,
+		"active": true
 	},
 	{
 		"key": "variable-fonts-workshop",
@@ -4660,7 +4698,7 @@
 		],
 		"color": "#d002e8",
 		"invert": true,
-		"active": false
+		"active": true
 	},
 	{
 		"key": "new-dg-resource-directory",
@@ -4724,6 +4762,119 @@
 			}
 		],
 		"color": "#d2232a",
+		"invert": true,
+		"active": true
+	},
+	{
+		"key": "color-studies",
+		"title": "Color Studies",
+		"subtitle": "",
+		"tagline": "",
+		"desc": "",
+		"links": [],
+		"tags": "physical",
+		"year": 2024,
+		"sort-chrono": "2024-05-23",
+		"sort-custom": 2,
+		"sort-alpha": "color-studies",
+		"thumbnail": {
+			"format": "image",
+			"image": "colorstudies-figure6.jpg",
+			"alt": "Color Studies"
+		},
+		"assets": [
+			{
+				"format": "image",
+				"image": "colorstudies-figure1.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-figure2.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-figure3.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-figure5.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-figure7.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-figure8.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-geometric1.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-geometric7.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-geometric13.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-geometric15.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-abstract3.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-palette1.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-palette2.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-palette3.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-palette4.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-palette5.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-palette6.jpg",
+				"alt": ""
+			},
+			{
+				"format": "image",
+				"image": "colorstudies-palette7.jpg",
+				"alt": ""
+			}
+		],
+		"color": "#de9292",
 		"invert": true,
 		"active": true
 	},
